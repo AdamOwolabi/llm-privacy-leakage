@@ -142,24 +142,6 @@ def load_and_train(embeddings_path, labels_path, metadata_path, run_name='run') 
     
     # Encode to integer labels for stratification
     le = LabelEncoder()
-    
-    # TEMP: ensure at least 2 items per combined-stratum for small-test runs
-    _force_min_per_stratum = True  # set False / remove this block for real runs
-    _min_required = 2
-    if _force_min_per_stratum:
-        counts = Counter(stratify_keys)
-        added = 0
-        for key, cnt in list(counts.items()):
-            while counts[key] < _min_required:
-                # find an index with this key and duplicate that entry
-                idx = next(i for i, k in enumerate(stratify_keys) if k == key)
-                dataset.append(dataset[idx])
-                stratify_keys.append(key)
-                counts[key] += 1
-                added += 1
-        if added:
-            print(f"TEMP DUPLICATION: added {added} samples to satisfy min {_min_required} per stratum.")
-    # Recompute stratify labels after any temporary duplication so lengths match
     stratify_labels = le.fit_transform(stratify_keys)
 
     train_dataset, test_dataset = sklearn.model_selection.train_test_split(dataset, test_size=test_size, train_size=train_size, random_state=42, shuffle=True, stratify=stratify_labels)
