@@ -2,6 +2,7 @@
 # Label = hidden trait indices (0 = control, 1 = low sensitivity, 2 = med sensitivity, 3 = high sensitivity)
 
 from sentence_transformers import SentenceTransformer
+from transformers import AutoTokenizer, AutoModel
 import torch
 import importlib
 
@@ -17,7 +18,11 @@ else:
 
 print("Using device:", device)
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('all-mpnet-base-v2', device=device)
+
+# HF tokenizer/model (lazy init) used only to avoid inference-mode tensor issues
+hf_tokenizer = None
+hf_model = None
 
 
 def chunk_and_aggregate(text) :
@@ -30,8 +35,37 @@ def chunk_and_aggregate(text) :
     
     chunks = [token_list[i:i+max_length] for i in range(0, len(token_list), max_length - 30)]  # 30 token overlap
 
-    # Get embeddings for each chunk and average them
-    chunk_embeddings = model.encode(chunks, device=device)
+    # Decode token-id chunks back to text before calling `model.encode` to avoid
+    # creating inference-mode tensors from raw id lists (which can trigger
+    # "Cannot set version_counter for inference tensor" errors with some models).
+    tokenizer = None
+    try:
+        tokenizer = model._first_module().tokenizer
+    except Exception:
+        tokenizer = None
+
+    if tokenizer is not None:
+        chunk_texts = [tokenizer.decode(c, skip_special_tokens=True) for c in chunks]
+    else:
+        chunk_texts = [" ".join(map(str, c)) for c in chunks]
+
+    # Get embeddings for each chunk and average them.
+    # Use HF AutoModel + tokenizer under torch.no_grad() to avoid creating
+    # inference-mode tensors that some MPNet internals mutate.
+    global hf_tokenizer, hf_model
+    if hf_tokenizer is None or hf_model is None:
+        hf_tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-mpnet-base-v2')
+        hf_model = AutoModel.from_pretrained('sentence-transformers/all-mpnet-base-v2')
+        hf_model.to(device)
+
+    tokens = hf_tokenizer(chunk_texts, padding=True, truncation=True, return_tensors='pt')
+    tokens = {k: v.to(device) for k, v in tokens.items()}
+    with torch.no_grad():
+        out = hf_model(**tokens, return_dict=True)
+    last_hidden = out.last_hidden_state  # (batch, seq_len, dim)
+    mask = tokens['attention_mask'].unsqueeze(-1).to(last_hidden.dtype)
+    pooled = (last_hidden * mask).sum(1) / mask.sum(1)
+    chunk_embeddings = pooled.cpu().numpy()
     aggregated_embedding = chunk_embeddings.mean(axis=0)
     
     return aggregated_embedding
@@ -133,4 +167,4 @@ def load_and_embed(csv_path, out_dir='embeddings', batch_size=32):
 
 
 # Test data run:
-load_and_embed('synthetic_conversations.csv', out_dir='embeddings', batch_size=32)
+load_and_embed('synthetic_conversations_full.csv', out_dir='embeddings', batch_size=32)
