@@ -5,6 +5,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 def tf_idf_accuracy(dataset: str, omit_ctrl = False, omit_middle = False):
+    '''
+    Logistic Regression model using TF-IDF for extracting hidden income traits from a dataset
+    Args:
+        dataset (string): Filename of the dataset to train/test model on
+        omit_ctrl (boolean): Flag to ignore control data in dataset
+        omit_middle (boolean): Flag to ignore middle class data in dataset
+    '''
     vectorizer = TfidfVectorizer()
     data = pd.read_csv(dataset)
 
