@@ -1,4 +1,24 @@
+
 --- Compare embeddings run ---
-observer_h256_bs16_lr0p0001_sampler_lowleak: accuracy=0.3215962441314554, train_accuracy=0.29518779342723006, final_train_loss=1.3529274491636967
-observer_h256_bs16_lr0p0001_sampler_notune: accuracy=0.4007029876977153, train_accuracy=0.4033391915641476, final_train_loss=1.2855157531627661
-observer_h256_bs16_lr0p0001_sampler_contrastive: accuracy=0.4007029876977153, train_accuracy=0.37697715289982425, final_train_loss=1.284634992401713
+observer_h256_bs16_lr0p0001_sampler_ll_mini: accuracy=0.33098591549295775, train_accuracy=0.29988262910798125, final_train_loss=1.3725828956550277
+observer_h256_bs16_lr0p0001_sampler_ll_bigger: accuracy=0.3215962441314554, train_accuracy=0.3145539906103286, final_train_loss=1.3470618596099353
+observer_h256_bs16_lr0p0001_sampler_hl: accuracy=0.4007029876977153, train_accuracy=0.37126537785588754, final_train_loss=1.2766688622154545
+observer_h256_bs16_lr0p0001_sampler_hl_cf: accuracy=0.4007029876977153, train_accuracy=0.37741652021089633, final_train_loss=1.2730585481244776
+
+--- Compare embeddings run ---
+observer_h256_bs16_lr0p0001_sampler_ll_mini: accuracy=0.25821596244131456, train_accuracy=0.29577464788732394, final_train_loss=1.3697566499172802
+observer_h256_bs16_lr0p0001_sampler_ll_bigger: accuracy=0.3380281690140845, train_accuracy=0.31572769953051644, final_train_loss=1.3409916615821946
+observer_h256_bs16_lr0p0001_sampler_hl: accuracy=0.4007029876977153, train_accuracy=0.3602811950790861, final_train_loss=1.27254676106525
+observer_h256_bs16_lr0p0001_sampler_hl_cf: accuracy=0.4007029876977153, train_accuracy=0.38884007029876977, final_train_loss=1.280110438385412
+
+--- Compare embeddings run ---
+observer_h256_bs16_lr0p0001_sampler_ll_mini: accuracy=0.33098591549295775, train_accuracy=0.3427230046948357, final_train_loss=1.3583248193275201
+observer_h256_bs16_lr0p0001_sampler_ll_bigger: accuracy=0.33098591549295775, train_accuracy=0.3427230046948357, final_train_loss=1.334363407931977
+observer_h256_bs16_lr0p0001_sampler_hl: accuracy=0.4007029876977153, train_accuracy=0.39630931458699475, final_train_loss=1.2799556479512701
+observer_h256_bs16_lr0p0001_sampler_hl_cf: accuracy=0.4007029876977153, train_accuracy=0.39630931458699475, final_train_loss=1.2801070257314269
+
+--- Compare embeddings run ---
+observer_h256_bs16_lr0p0001_sampler_ll_mini: accuracy=0.26291079812206575, train_accuracy=0.29870892018779344, final_train_loss=1.3721412073278652
+observer_h256_bs16_lr0p0001_sampler_ll_bigger: accuracy=0.3380281690140845, train_accuracy=0.29401408450704225, final_train_loss=1.3543461331739113
+observer_h256_bs16_lr0p0001_sampler_hl: accuracy=0.4007029876977153, train_accuracy=0.37521968365553604, final_train_loss=1.2789740977262152
+observer_h256_bs16_lr0p0001_sampler_hl_cf: accuracy=0.4007029876977153, train_accuracy=0.40202108963093147, final_train_loss=1.272490393298372

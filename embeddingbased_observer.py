@@ -81,7 +81,7 @@ def training_loop(
         dropout=dropout,
         num_layers=num_layers,
     ).to(device)
-    
+
     # If class_weights provided (torch tensor on device), use them in CrossEntropyLoss
     if class_weights is not None:
         loss_fcn = nn.CrossEntropyLoss(weight=class_weights)
@@ -161,11 +161,11 @@ def training_loop(
             print(
                 f"Epoch [{epoch+1}/{num_epochs}], Loss: {epoch_loss:.4f}, Acc: {epoch_accuracy:.4f}, ValLoss: {val_loss:.4f}, ValAcc: {val_acc:.4f}"
             )
-            
+
             # scheduler step
             if scheduler is not None:
                 scheduler.step(val_loss)
-            
+
             # early stopping
             if val_loss < best_val_loss - 1e-6:
                 best_val_loss = val_loss
@@ -221,6 +221,7 @@ def training_loop(
 
 # Load and split dataset, create dataloader, and call training loop
 from torch.utils.data import DataLoader, TensorDataset, WeightedRandomSampler
+
 
 def load_and_train(
     embeddings_path,
@@ -467,7 +468,8 @@ def load_and_train(
     else:
         metrics["final_train_loss"] = None
         metrics["final_train_accuracy"] = None
-    return model, metrics
+    # Output metrics for visualizations in bundle -- to be used in embedding comparison below to produce comparison visualizations
+    return model, metrics, (train_preds, train_true, test_preds, test_true)
 
 
 if __name__ == "__main__":
@@ -567,59 +569,208 @@ if __name__ == "__main__":
 
     # Save results to a summary file
 
-    os.makedirs('runs', exist_ok=True)
+    os.makedirs("runs", exist_ok=True)
     emb_files = {
-        'lowleak': os.path.join('embeddings', 'embeddings_lowleakage.npy'),
-        'notune': os.path.join('embeddings', 'embeddings_notune.npy'),
-        'contrastive': os.path.join('embeddings', 'embeddings_contrastivefinetuned.npy')
+        "ll_mini": os.path.join("embeddings", "embeddings_lowleakage_minilm.npy"),
+        "ll_bigger": os.path.join("embeddings", "embeddings_lowleakage_moredims.npy"),
+        "hl": os.path.join("embeddings", "embeddings_moreexplicit.npy"),
+        "hl_cf": os.path.join("embeddings", "embeddings_moreexplicit_contrastivefinetuned.npy"),
     }
 
     # Per-embedding label/metadata filenames
     labels_map = {
-        'lowleak': os.path.join('embeddings', 'labels_lowleakage.npy'),
-        'notune': os.path.join('embeddings', 'labels_moreexplicit.npy'),
-        'contrastive': os.path.join('embeddings', 'labels_moreexplicit.npy')
+        "ll_mini": os.path.join("embeddings", "labels_lowleakage.npy"),
+        "ll_bigger": os.path.join("embeddings", "labels_lowleakage.npy"),
+        "hl": os.path.join("embeddings", "labels_moreexplicit.npy"),
+        "hl_cf": os.path.join("embeddings", "labels_moreexplicit.npy"),
     }
     meta_map = {
-        'lowleak': os.path.join('embeddings', 'metadata_lowleakage.json'),
-        'notune': os.path.join('embeddings', 'metadata_moreexplicit.json'),
-        'contrastive': os.path.join('embeddings', 'metadata_moreexplicit.json')
+        "ll_mini": os.path.join("embeddings", "metadata_lowleakage.json"),
+        "ll_bigger": os.path.join("embeddings", "metadata_lowleakage.json"),
+        "hl": os.path.join("embeddings", "metadata_moreexplicit.json"),
+        "hl_cf": os.path.join("embeddings", "metadata_moreexplicit.json"),
     }
 
-    out_summary = os.path.join('runs', 'embedding_comparison_summary.txt')
+    out_summary = os.path.join("runs", "embedding_comparison_summary.txt")
+    comp_results = os.path.join("runs", "embedding_comparison_results.txt")
 
-    with open(out_summary, 'a', encoding='utf-8') as sf:
-        sf.write('\n--- Compare embeddings run ---\n')
+    with open(out_summary, "a", encoding="utf-8") as sf:
+        sf.write("\n--- Compare embeddings run ---\n")
+    # initialize/append a richer results file for full text outputs (confusion matrices, reports)
+    with open(comp_results, "a", encoding="utf-8") as rf:
+        rf.write("\n=== Embedding comparison detailed results ===\n")
 
     for key, emb_path in emb_files.items():
-        lr_str = str(lr).replace('.', 'p').replace('-', 'm')
-        run_name = f'observer_h{hidden}_bs{bs}_lr{lr_str}_sampler_{key}'
+        lr_str = str(lr).replace(".", "p").replace("-", "m")
+        run_name = f"observer_h{hidden}_bs{bs}_lr{lr_str}_sampler_{key}"
         print(f"Running {run_name} using {emb_path}")
         try:
-            model, metrics = load_and_train(embeddings_path=emb_path,
-                                            labels_path=labels_map.get(key),
-                                            metadata_path=meta_map.get(key),
-                                            run_name=run_name,
-                                            num_epochs=num_epochs,
-                                            train_batch_size=bs,
-                                            test_batch_size=32,
-                                            lr=lr,
-                                            weight_decay=weight_decay,
-                                            use_class_weights=False,
-                                            use_weighted_sampler=sampler_flag,
-                                            hidden_size=hidden,
-                                            dropout=dropout,
-                                            num_layers=num_layers)
+            # Get results from load_an_train to be used for visualizations
+            model, metrics, preds_bundle = load_and_train(
+                embeddings_path=emb_path,
+                labels_path=labels_map.get(key),
+                metadata_path=meta_map.get(key),
+                run_name=run_name,
+                num_epochs=num_epochs,
+                train_batch_size=bs,
+                test_batch_size=32,
+                lr=lr,
+                weight_decay=weight_decay,
+                use_class_weights=False,
+                use_weighted_sampler=sampler_flag,
+                hidden_size=hidden,
+                dropout=dropout,
+                num_layers=num_layers,
+            )
+            
+            # Split bundled confusion matrix info
+            train_preds_arr, train_true_arr, test_preds_arr, test_true_arr = (
+                preds_bundle
+            )
+            
             summary = f"{run_name}: accuracy={metrics.get('accuracy')}, train_accuracy={metrics.get('train_accuracy')}, final_train_loss={metrics.get('final_train_loss')}\n"
             print(summary)
-            with open(out_summary, 'a', encoding='utf-8') as sf:
+            with open(out_summary, "a", encoding="utf-8") as sf:
                 sf.write(summary)
+            # write detailed classification reports and confusion matrices to comp_results
+            try:
+                from sklearn.metrics import classification_report, confusion_matrix
+
+                tr_report = classification_report(train_true_arr, train_preds_arr, zero_division=0)
+                te_report = classification_report(test_true_arr, test_preds_arr, zero_division=0)
+                tr_cmat = confusion_matrix(train_true_arr, train_preds_arr)
+                te_cmat = confusion_matrix(test_true_arr, test_preds_arr)
+                with open(comp_results, "a", encoding="utf-8") as rf:
+                    rf.write(f"\n--- {run_name} ---\n")
+                    rf.write("Train accuracy: %s\n" % metrics.get("train_accuracy"))
+                    rf.write(tr_report + "\n")
+                    rf.write("Train Confusion matrix:\n")
+                    rf.write(np.array2string(tr_cmat) + "\n")
+                    rf.write("Test accuracy: %s\n" % metrics.get("accuracy"))
+                    rf.write(te_report + "\n")
+                    rf.write("Test Confusion matrix:\n")
+                    rf.write(np.array2string(te_cmat) + "\n")
+            except Exception as _:
+                print("Could not write detailed classification outputs:", _)
+            # also save confusion matrix figures for quick inspection
+            try:
+                from sklearn.metrics import confusion_matrix
+                import matplotlib
+                matplotlib.use('Agg')
+                plt.figure(figsize=(4,4))
+                plt.imshow(te_cmat, interpolation='nearest', cmap=plt.cm.Blues)
+                plt.title(f"Confusion: {key}")
+                plt.colorbar()
+                ticks = np.arange(te_cmat.shape[0])
+                plt.xticks(ticks, ticks)
+                plt.yticks(ticks, ticks)
+                plt.xlabel('pred')
+                plt.ylabel('true')
+                for i in range(te_cmat.shape[0]):
+                    for j in range(te_cmat.shape[1]):
+                        plt.text(j, i, te_cmat[i, j], ha='center', va='center', color='black')
+                cimg = os.path.join('runs', f'conf_{key}.png')
+                plt.tight_layout()
+                plt.savefig(cimg, dpi=150)
+                plt.close()
+                print('Saved confusion matrix image:', cimg)
+            except Exception as _:
+                print('Could not save confusion matrix image:', _)
+        
         except Exception as e:
             print(f"Error running {run_name}: {e}")
-            with open(out_summary, 'a', encoding='utf-8') as sf:
+            with open(out_summary, "a", encoding="utf-8") as sf:
                 sf.write(f"{run_name}: ERROR {e}\n")
 
-    print('Done. Summary written to', out_summary)
+    # Aggregate results from all runs to produce comparison visualizations (accuracy bar plot and per-conversation-length grouped bar plot)
+    agg_acc = {}
+    agg_perlen = {}
+    for key in emb_files.keys():
+        run_name = (
+            f'observer_h{hidden}_bs{bs}_lr{str(lr).replace(".", "p")}_sampler_{key}'
+        )
+        # try read per_length_metrics.json from run dir
+        run_dir = os.path.join("runs", run_name)
+        perlen = {}
+        try:
+            with open(
+                os.path.join(run_dir, "per_length_metrics.json"), "r", encoding="utf-8"
+            ) as pf:
+                dd = json.load(pf)
+                perlen = dd.get("per_length_test", {})
+        except Exception:
+            perlen = {}
+        agg_perlen[key] = perlen
+        # find accuracy from summary file fallback
+        acc = None
+        try:
+            with open(out_summary, "r", encoding="utf-8") as sf:
+                for line in sf:
+                    if line.startswith(run_name + ":"):
+                        parts = line.split("accuracy=")
+                        if len(parts) > 1:
+                            acc_part = parts[1].split(",")[0]
+                            try:
+                                acc = float(acc_part)
+                            except Exception:
+                                acc = None
+                        break
+        except Exception:
+            acc = None
+        agg_acc[key] = acc if acc is not None else 0.0
+
+    # Plot accuracy comparison
+    try:
+        labels = list(agg_acc.keys())
+        accs = [agg_acc[k] for k in labels]
+        plt.figure(figsize=(6, 4))
+        bars = plt.bar(labels, accs, color=["#4C72B0", "#55A868", "#C44E52"])
+        plt.ylim(0, 1)
+        plt.ylabel("Test accuracy")
+        plt.title("Embedding comparison: Test accuracy")
+        for bar, a in zip(bars, accs):
+            plt.text(
+                bar.get_x() + bar.get_width() / 2,
+                a + 0.01,
+                f"{a:.3f}",
+                ha="center",
+                va="bottom",
+            )
+        acc_plot = os.path.join("runs", "embedding_accuracy_comparison.png")
+        plt.tight_layout()
+        plt.savefig(acc_plot, dpi=200)
+        plt.close()
+        print("Saved accuracy comparison plot:", acc_plot)
+    except Exception as e:
+        print("Could not create accuracy comparison plot:", e)
+
+    # Per-length grouped bar
+    try:
+        all_turns = set()
+        for v in agg_perlen.values():
+            all_turns.update([int(k) for k in v.keys()])
+        if len(all_turns) > 0:
+            all_turns = sorted(all_turns)
+            x = np.arange(len(all_turns))
+            width = 0.2
+            plt.figure(figsize=(8, 4))
+            for i, key in enumerate(labels):
+                vals = [agg_perlen.get(key, {}).get(str(k), np.nan) for k in all_turns]
+                plt.bar(x + (i - 1) * width, vals, width=width, label=key)
+            plt.xticks(x, [str(k) for k in all_turns])
+            plt.xlabel("num_turns")
+            plt.ylabel("Test accuracy")
+            plt.title("Per-conversation-length accuracy by embedding")
+            plt.legend()
+            perlen_plot = os.path.join("runs", "embedding_per_length_comparison.png")
+            plt.tight_layout()
+            plt.savefig(perlen_plot, dpi=200)
+            plt.close()
+            print("Saved per-length comparison plot:", perlen_plot)
+    except Exception as e:
+        print("Could not create per-length comparison plot:", e)
+
+    print("Done. Summary written to", out_summary)
 
     # model_path = 'observer_embedding_model.pth'
     # torch.save(model.state_dict(), model_path)

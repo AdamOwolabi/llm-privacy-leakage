@@ -35,10 +35,10 @@ def main(quick=False, remove_top=0):
     out_base = os.path.join('runs', f'embedding_vis_{t0}')
     os.makedirs(out_base, exist_ok=True)
 
-    # Load embeddings and labels
-    emb_path = os.path.join('embeddings', 'embeddings.npy')
-    lbl_path = os.path.join('embeddings', 'labels.npy')
-    meta_path = os.path.join('embeddings', 'metadata.json')
+    # Load embeddings and labels (replace filenames to run on diff embedding sets)
+    emb_path = os.path.join('embeddings', 'embeddings_contrastivefinetuned.npy')
+    lbl_path = os.path.join('embeddings', 'labels_moreexplicit.npy')
+    meta_path = os.path.join('embeddings', 'metadata_moreexplicit.json')
     if not os.path.exists(emb_path) or not os.path.exists(lbl_path):
         print('Could not find embeddings/labels under embeddings/. Run embed_dataset first.')
         return
