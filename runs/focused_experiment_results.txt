@@ -1,0 +1,4095 @@
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do0_wd0p0_nl1 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do0_wd0p0_nl2 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do0_wd0p0001_nl1 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0001 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do0_wd0p0001_nl2 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0001 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do2_wd0p0_nl1 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do2_wd0p0_nl2 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do2_wd0p0001_nl1 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0001 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do2_wd0p0001_nl2 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0001 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do0_wd0p0_nl1 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do0_wd0p0_nl2 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do0_wd0p0001_nl1 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0001 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do0_wd0p0001_nl2 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0001 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do2_wd0p0_nl1 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do2_wd0p0_nl2 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do2_wd0p0001_nl1 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0001 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do2_wd0p0001_nl2 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0001 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do0_wd0p0_nl1 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do0_wd0p0_nl2 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do0_wd0p0001_nl1 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0001 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do0_wd0p0001_nl2 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0001 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do2_wd0p0_nl1 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do2_wd0p0_nl2 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do2_wd0p0001_nl1 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0001 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do2_wd0p0001_nl2 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0001 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do0_wd0p0_nl1 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do0_wd0p0_nl2 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do0_wd0p0001_nl1 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0001 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do0_wd0p0001_nl2 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0001 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do2_wd0p0_nl1 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do2_wd0p0_nl2 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do2_wd0p0001_nl1 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0001 num_layers=1 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do2_wd0p0001_nl2 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0001 num_layers=2 ===
+
+ERROR: [Errno 2] No such file or directory: 'embeddings\\embeddings.npy'
+Metrics: {'accuracy': None}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do0_wd0p0_nl1 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3731, Acc: 0.3484, ValLoss: 1.3572, ValAcc: 0.3902
+Epoch [2/20], Loss: 1.3463, Acc: 0.3809, ValLoss: 1.3258, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3291, Acc: 0.3682, ValLoss: 1.3054, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.3063, Acc: 0.3546, ValLoss: 1.2914, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3002, Acc: 0.3695, ValLoss: 1.2833, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2982, Acc: 0.3642, ValLoss: 1.2790, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.2674, Acc: 0.4077, ValLoss: 1.2743, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2928, Acc: 0.3875, ValLoss: 1.2740, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2876, Acc: 0.3919, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2968, Acc: 0.3805, ValLoss: 1.2734, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2824, Acc: 0.3809, ValLoss: 1.2720, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2909, Acc: 0.3721, ValLoss: 1.2711, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2894, Acc: 0.3787, ValLoss: 1.2725, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2767, Acc: 0.3796, ValLoss: 1.2726, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2910, Acc: 0.3717, ValLoss: 1.2744, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2778, Acc: 0.3928, ValLoss: 1.2721, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2819, Acc: 0.3801, ValLoss: 1.2713, ValAcc: 0.4007
+Early stopping triggered (no val improvement for 5 epochs)
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_sampler_do0_wd0p0_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_sampler_do0_wd0p0_nl1\accuracy_curve.png
+Train accuracy: 0.3862
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.40      0.06      0.10       549
+           1       0.33      0.91      0.49       596
+           2       0.40      0.24      0.30       568
+           3       0.74      0.30      0.43       563
+
+    accuracy                           0.39      2276
+   macro avg       0.47      0.38      0.33      2276
+weighted avg       0.47      0.39      0.33      2276
+
+Train Confusion matrix:
+[[ 32 407  90  20]
+ [ 22 541  13  20]
+ [  9 402 138  19]
+ [ 18 273 104 168]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.38620386643233745, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.281929222058328, 'final_train_accuracy': 0.38005272407732865}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do0_wd0p0_nl2 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3758, Acc: 0.3282, ValLoss: 1.3533, ValAcc: 0.3462
+Epoch [2/20], Loss: 1.3210, Acc: 0.3497, ValLoss: 1.2962, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.2945, Acc: 0.3822, ValLoss: 1.2823, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.2873, Acc: 0.3946, ValLoss: 1.2783, ValAcc: 0.4007
+Epoch [5/20], Loss: 1.2776, Acc: 0.3915, ValLoss: 1.2763, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2630, Acc: 0.4038, ValLoss: 1.2764, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2851, Acc: 0.3994, ValLoss: 1.2761, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2872, Acc: 0.3730, ValLoss: 1.2749, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2782, Acc: 0.3853, ValLoss: 1.2746, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2954, Acc: 0.3783, ValLoss: 1.2754, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2776, Acc: 0.3880, ValLoss: 1.2734, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2756, Acc: 0.3801, ValLoss: 1.2742, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.3034, Acc: 0.3730, ValLoss: 1.2730, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2722, Acc: 0.3884, ValLoss: 1.2699, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2802, Acc: 0.3792, ValLoss: 1.2701, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2858, Acc: 0.3871, ValLoss: 1.2708, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2925, Acc: 0.3533, ValLoss: 1.2737, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2887, Acc: 0.3985, ValLoss: 1.2721, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2686, Acc: 0.3871, ValLoss: 1.2701, ValAcc: 0.4007
+Early stopping triggered (no val improvement for 5 epochs)
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_sampler_do0_wd0p0_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_sampler_do0_wd0p0_nl2\accuracy_curve.png
+Train accuracy: 0.3853
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.49      0.06      0.11       570
+           1       0.32      0.90      0.47       587
+           2       0.42      0.23      0.30       586
+           3       0.75      0.33      0.46       533
+
+    accuracy                           0.39      2276
+   macro avg       0.49      0.38      0.34      2276
+weighted avg       0.49      0.39      0.34      2276
+
+Train Confusion matrix:
+[[ 37 431  81  21]
+ [ 17 528  19  23]
+ [ 10 426 134  16]
+ [ 12 255  88 178]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.38532513181019334, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2685934596405297, 'final_train_accuracy': 0.38708260105448156}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do0_wd0p0001_nl1 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0001 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3728, Acc: 0.3291, ValLoss: 1.3558, ValAcc: 0.2970
+Epoch [2/20], Loss: 1.3446, Acc: 0.3357, ValLoss: 1.3237, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3283, Acc: 0.3366, ValLoss: 1.3034, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.3031, Acc: 0.3682, ValLoss: 1.2891, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.2834, Acc: 0.3735, ValLoss: 1.2797, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2869, Acc: 0.3805, ValLoss: 1.2781, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2844, Acc: 0.3748, ValLoss: 1.2784, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2772, Acc: 0.3998, ValLoss: 1.2743, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2737, Acc: 0.3853, ValLoss: 1.2756, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2605, Acc: 0.4020, ValLoss: 1.2745, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2688, Acc: 0.3941, ValLoss: 1.2716, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2893, Acc: 0.3765, ValLoss: 1.2755, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2851, Acc: 0.3770, ValLoss: 1.2740, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2866, Acc: 0.3862, ValLoss: 1.2712, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2872, Acc: 0.3792, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2794, Acc: 0.3849, ValLoss: 1.2728, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2896, Acc: 0.3546, ValLoss: 1.2729, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2776, Acc: 0.3932, ValLoss: 1.2711, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2820, Acc: 0.4038, ValLoss: 1.2723, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2954, Acc: 0.3792, ValLoss: 1.2724, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_sampler_do0_wd0p0001_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_sampler_do0_wd0p0001_nl1\accuracy_curve.png
+Train accuracy: 0.4020
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.48      0.07      0.12       538
+           1       0.34      0.92      0.50       603
+           2       0.43      0.25      0.32       551
+           3       0.76      0.32      0.45       584
+
+    accuracy                           0.40      2276
+   macro avg       0.50      0.39      0.34      2276
+weighted avg       0.50      0.40      0.35      2276
+
+Train Confusion matrix:
+[[ 36 417  68  17]
+ [ 11 555  13  24]
+ [  9 387 137  18]
+ [ 19 278 100 187]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.40202108963093147, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2953533967056676, 'final_train_accuracy': 0.37917398945518455}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do0_wd0p0001_nl2 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0001 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3780, Acc: 0.3076, ValLoss: 1.3591, ValAcc: 0.3761
+Epoch [2/20], Loss: 1.3307, Acc: 0.3717, ValLoss: 1.2997, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3074, Acc: 0.3598, ValLoss: 1.2827, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.2853, Acc: 0.3686, ValLoss: 1.2823, ValAcc: 0.4007
+Epoch [5/20], Loss: 1.2936, Acc: 0.3818, ValLoss: 1.2772, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2903, Acc: 0.3831, ValLoss: 1.2757, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2905, Acc: 0.3792, ValLoss: 1.2782, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2976, Acc: 0.3801, ValLoss: 1.2776, ValAcc: 0.3866
+Epoch [9/20], Loss: 1.2772, Acc: 0.3932, ValLoss: 1.2738, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2692, Acc: 0.3910, ValLoss: 1.2750, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2647, Acc: 0.3941, ValLoss: 1.2728, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2815, Acc: 0.3937, ValLoss: 1.2735, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2882, Acc: 0.3836, ValLoss: 1.2728, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2603, Acc: 0.3796, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2646, Acc: 0.3866, ValLoss: 1.2732, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2791, Acc: 0.3765, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2687, Acc: 0.3937, ValLoss: 1.2722, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2682, Acc: 0.3946, ValLoss: 1.2725, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2885, Acc: 0.3862, ValLoss: 1.2725, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2800, Acc: 0.3849, ValLoss: 1.2708, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_sampler_do0_wd0p0001_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_sampler_do0_wd0p0001_nl2\accuracy_curve.png
+Train accuracy: 0.3849
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.47      0.07      0.12       568
+           1       0.31      0.90      0.46       558
+           2       0.42      0.23      0.30       580
+           3       0.78      0.36      0.49       570
+
+    accuracy                           0.38      2276
+   macro avg       0.50      0.39      0.34      2276
+weighted avg       0.50      0.38      0.34      2276
+
+Train Confusion matrix:
+[[ 38 422  83  25]
+ [ 22 500  16  20]
+ [  9 425 132  14]
+ [ 11 270  83 206]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.38488576449912126, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2800011557309197, 'final_train_accuracy': 0.38488576449912126}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do2_wd0p0_nl1 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3763, Acc: 0.3317, ValLoss: 1.3610, ValAcc: 0.4007
+Epoch [2/20], Loss: 1.3486, Acc: 0.3822, ValLoss: 1.3311, ValAcc: 0.3866
+Epoch [3/20], Loss: 1.3296, Acc: 0.3541, ValLoss: 1.3074, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.3100, Acc: 0.3563, ValLoss: 1.2920, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3036, Acc: 0.3344, ValLoss: 1.2878, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.2932, Acc: 0.3928, ValLoss: 1.2799, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2871, Acc: 0.3937, ValLoss: 1.2757, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2971, Acc: 0.3739, ValLoss: 1.2750, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2805, Acc: 0.3880, ValLoss: 1.2744, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2731, Acc: 0.4082, ValLoss: 1.2722, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2850, Acc: 0.3822, ValLoss: 1.2718, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2989, Acc: 0.3730, ValLoss: 1.2759, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2793, Acc: 0.3849, ValLoss: 1.2720, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2963, Acc: 0.3651, ValLoss: 1.2736, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2841, Acc: 0.3827, ValLoss: 1.2726, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2926, Acc: 0.3910, ValLoss: 1.2718, ValAcc: 0.4007
+Early stopping triggered (no val improvement for 5 epochs)
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_sampler_do2_wd0p0_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_sampler_do2_wd0p0_nl1\accuracy_curve.png
+Train accuracy: 0.3840
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.42      0.05      0.10       551
+           1       0.32      0.91      0.47       560
+           2       0.42      0.26      0.32       578
+           3       0.74      0.31      0.44       587
+
+    accuracy                           0.38      2276
+   macro avg       0.48      0.38      0.33      2276
+weighted avg       0.48      0.38      0.33      2276
+
+Train Confusion matrix:
+[[ 30 398  93  30]
+ [ 17 511  11  21]
+ [  7 408 149  14]
+ [ 17 286 100 184]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.38400702987697716, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2926083612525818, 'final_train_accuracy': 0.39103690685413006}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do2_wd0p0_nl2 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3792, Acc: 0.3032, ValLoss: 1.3651, ValAcc: 0.3884
+Epoch [2/20], Loss: 1.3513, Acc: 0.3374, ValLoss: 1.3216, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3165, Acc: 0.3423, ValLoss: 1.2930, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.2967, Acc: 0.3651, ValLoss: 1.2785, ValAcc: 0.4007
+Epoch [5/20], Loss: 1.2990, Acc: 0.3748, ValLoss: 1.2756, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2892, Acc: 0.3950, ValLoss: 1.2749, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2772, Acc: 0.3932, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2958, Acc: 0.3844, ValLoss: 1.2754, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.3004, Acc: 0.3761, ValLoss: 1.2716, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2844, Acc: 0.3862, ValLoss: 1.2717, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2920, Acc: 0.3884, ValLoss: 1.2753, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2832, Acc: 0.3875, ValLoss: 1.2740, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2813, Acc: 0.3880, ValLoss: 1.2726, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2898, Acc: 0.3761, ValLoss: 1.2723, ValAcc: 0.4007
+Early stopping triggered (no val improvement for 5 epochs)
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_sampler_do2_wd0p0_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_sampler_do2_wd0p0_nl2\accuracy_curve.png
+Train accuracy: 0.3783
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.39      0.05      0.09       556
+           1       0.31      0.88      0.46       556
+           2       0.43      0.27      0.33       585
+           3       0.70      0.32      0.44       579
+
+    accuracy                           0.38      2276
+   macro avg       0.46      0.38      0.33      2276
+weighted avg       0.46      0.38      0.33      2276
+
+Train Confusion matrix:
+[[ 30 409  91  26]
+ [ 21 489  14  32]
+ [ 16 390 157  22]
+ [  9 285 100 185]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.37829525483304044, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2897911792480254, 'final_train_accuracy': 0.37609841827768015}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do2_wd0p0001_nl1 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0001 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3766, Acc: 0.3264, ValLoss: 1.3622, ValAcc: 0.4007
+Epoch [2/20], Loss: 1.3561, Acc: 0.3625, ValLoss: 1.3374, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3299, Acc: 0.3673, ValLoss: 1.3131, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.3162, Acc: 0.3603, ValLoss: 1.2972, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3039, Acc: 0.3822, ValLoss: 1.2870, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2865, Acc: 0.3853, ValLoss: 1.2817, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.2887, Acc: 0.3814, ValLoss: 1.2786, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.2776, Acc: 0.3801, ValLoss: 1.2757, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2771, Acc: 0.3713, ValLoss: 1.2772, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2962, Acc: 0.3691, ValLoss: 1.2740, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2977, Acc: 0.3678, ValLoss: 1.2764, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2798, Acc: 0.3893, ValLoss: 1.2756, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2847, Acc: 0.3897, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2818, Acc: 0.3787, ValLoss: 1.2734, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2794, Acc: 0.3752, ValLoss: 1.2737, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2784, Acc: 0.3875, ValLoss: 1.2725, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2829, Acc: 0.3937, ValLoss: 1.2720, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2740, Acc: 0.3893, ValLoss: 1.2724, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2812, Acc: 0.3937, ValLoss: 1.2714, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2850, Acc: 0.3840, ValLoss: 1.2714, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_sampler_do2_wd0p0001_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_sampler_do2_wd0p0001_nl1\accuracy_curve.png
+Train accuracy: 0.3928
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.44      0.05      0.09       543
+           1       0.31      0.93      0.47       539
+           2       0.45      0.28      0.35       585
+           3       0.81      0.33      0.47       609
+
+    accuracy                           0.39      2276
+   macro avg       0.50      0.40      0.34      2276
+weighted avg       0.51      0.39      0.35      2276
+
+Train Confusion matrix:
+[[ 28 405  88  22]
+ [ 10 502  12  15]
+ [ 13 398 165   9]
+ [ 13 299  98 199]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.3927943760984183, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2849587612705198, 'final_train_accuracy': 0.38400702987697716}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_sampler_do2_wd0p0001_nl2 | hidden=256 bs=16 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0001 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3767, Acc: 0.3282, ValLoss: 1.3576, ValAcc: 0.3761
+Epoch [2/20], Loss: 1.3389, Acc: 0.3612, ValLoss: 1.3083, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3208, Acc: 0.3405, ValLoss: 1.2903, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.2919, Acc: 0.3743, ValLoss: 1.2785, ValAcc: 0.4007
+Epoch [5/20], Loss: 1.2758, Acc: 0.4117, ValLoss: 1.2747, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2803, Acc: 0.3783, ValLoss: 1.2754, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2802, Acc: 0.3915, ValLoss: 1.2791, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2933, Acc: 0.3774, ValLoss: 1.2724, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2877, Acc: 0.3673, ValLoss: 1.2724, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2833, Acc: 0.3827, ValLoss: 1.2766, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2795, Acc: 0.3954, ValLoss: 1.2747, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2919, Acc: 0.3814, ValLoss: 1.2749, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2758, Acc: 0.3967, ValLoss: 1.2748, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2843, Acc: 0.3858, ValLoss: 1.2727, ValAcc: 0.4007
+Early stopping triggered (no val improvement for 5 epochs)
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_sampler_do2_wd0p0001_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_sampler_do2_wd0p0001_nl2\accuracy_curve.png
+Train accuracy: 0.3796
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.41      0.04      0.08       600
+           1       0.31      0.90      0.46       559
+           2       0.42      0.27      0.33       572
+           3       0.76      0.33      0.46       545
+
+    accuracy                           0.38      2276
+   macro avg       0.47      0.39      0.33      2276
+weighted avg       0.47      0.38      0.33      2276
+
+Train Confusion matrix:
+[[ 27 446 100  27]
+ [ 18 501  18  22]
+ [  9 400 154   9]
+ [ 12 256  95 182]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.37961335676625657, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2843445964773008, 'final_train_accuracy': 0.38576449912126537}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do0_wd0p0_nl1 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3721, Acc: 0.3612, ValLoss: 1.3535, ValAcc: 0.3902
+Epoch [2/20], Loss: 1.3406, Acc: 0.3880, ValLoss: 1.3199, ValAcc: 0.3902
+Epoch [3/20], Loss: 1.3140, Acc: 0.3822, ValLoss: 1.2960, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.2986, Acc: 0.3880, ValLoss: 1.2845, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.2908, Acc: 0.3888, ValLoss: 1.2783, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.2873, Acc: 0.3954, ValLoss: 1.2750, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2845, Acc: 0.3963, ValLoss: 1.2732, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2828, Acc: 0.3963, ValLoss: 1.2732, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2823, Acc: 0.3963, ValLoss: 1.2713, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2812, Acc: 0.3963, ValLoss: 1.2717, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2809, Acc: 0.3963, ValLoss: 1.2714, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2805, Acc: 0.3963, ValLoss: 1.2700, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2798, Acc: 0.3963, ValLoss: 1.2707, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2798, Acc: 0.3963, ValLoss: 1.2694, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2794, Acc: 0.3963, ValLoss: 1.2701, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2793, Acc: 0.3963, ValLoss: 1.2692, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2791, Acc: 0.3963, ValLoss: 1.2688, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2789, Acc: 0.3963, ValLoss: 1.2706, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2796, Acc: 0.3963, ValLoss: 1.2696, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2784, Acc: 0.3963, ValLoss: 1.2697, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_do0_wd0p0_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_do0_wd0p0_nl1\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2784451709271316, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do0_wd0p0_nl2 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3764, Acc: 0.3045, ValLoss: 1.3559, ValAcc: 0.3902
+Epoch [2/20], Loss: 1.3311, Acc: 0.3651, ValLoss: 1.2976, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.2971, Acc: 0.3739, ValLoss: 1.2800, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.2892, Acc: 0.3910, ValLoss: 1.2746, ValAcc: 0.4007
+Epoch [5/20], Loss: 1.2853, Acc: 0.3963, ValLoss: 1.2733, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2828, Acc: 0.3963, ValLoss: 1.2720, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2815, Acc: 0.3963, ValLoss: 1.2736, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2813, Acc: 0.3963, ValLoss: 1.2713, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2808, Acc: 0.3963, ValLoss: 1.2713, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2804, Acc: 0.3963, ValLoss: 1.2704, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2798, Acc: 0.3963, ValLoss: 1.2700, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2802, Acc: 0.3963, ValLoss: 1.2695, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2795, Acc: 0.3963, ValLoss: 1.2694, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2794, Acc: 0.3963, ValLoss: 1.2699, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2791, Acc: 0.3963, ValLoss: 1.2699, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2785, Acc: 0.3963, ValLoss: 1.2692, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2788, Acc: 0.3963, ValLoss: 1.2689, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2784, Acc: 0.3963, ValLoss: 1.2690, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2782, Acc: 0.3963, ValLoss: 1.2687, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2782, Acc: 0.3963, ValLoss: 1.2685, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_do0_wd0p0_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_do0_wd0p0_nl2\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2782325436654116, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do0_wd0p0001_nl1 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0001 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3728, Acc: 0.3366, ValLoss: 1.3539, ValAcc: 0.4007
+Epoch [2/20], Loss: 1.3411, Acc: 0.3884, ValLoss: 1.3189, ValAcc: 0.3902
+Epoch [3/20], Loss: 1.3140, Acc: 0.3880, ValLoss: 1.2947, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.2985, Acc: 0.3849, ValLoss: 1.2829, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.2907, Acc: 0.3888, ValLoss: 1.2772, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.2864, Acc: 0.3932, ValLoss: 1.2748, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2849, Acc: 0.3963, ValLoss: 1.2723, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2827, Acc: 0.3963, ValLoss: 1.2713, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2824, Acc: 0.3963, ValLoss: 1.2708, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2809, Acc: 0.3963, ValLoss: 1.2704, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2807, Acc: 0.3963, ValLoss: 1.2698, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2803, Acc: 0.3963, ValLoss: 1.2695, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2802, Acc: 0.3963, ValLoss: 1.2696, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2803, Acc: 0.3963, ValLoss: 1.2699, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2805, Acc: 0.3963, ValLoss: 1.2698, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2788, Acc: 0.3963, ValLoss: 1.2692, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2785, Acc: 0.3963, ValLoss: 1.2694, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2784, Acc: 0.3963, ValLoss: 1.2690, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2786, Acc: 0.3963, ValLoss: 1.2690, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2785, Acc: 0.3963, ValLoss: 1.2691, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_do0_wd0p0001_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_do0_wd0p0001_nl1\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2785171760616068, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do0_wd0p0001_nl2 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0001 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3723, Acc: 0.3199, ValLoss: 1.3453, ValAcc: 0.3761
+Epoch [2/20], Loss: 1.3255, Acc: 0.3651, ValLoss: 1.2952, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.2987, Acc: 0.3757, ValLoss: 1.2815, ValAcc: 0.4007
+Epoch [4/20], Loss: 1.2891, Acc: 0.3941, ValLoss: 1.2763, ValAcc: 0.4007
+Epoch [5/20], Loss: 1.2852, Acc: 0.3963, ValLoss: 1.2750, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2833, Acc: 0.3963, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2827, Acc: 0.3963, ValLoss: 1.2730, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2817, Acc: 0.3937, ValLoss: 1.2718, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2819, Acc: 0.3941, ValLoss: 1.2716, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2802, Acc: 0.3963, ValLoss: 1.2708, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2804, Acc: 0.3963, ValLoss: 1.2708, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2801, Acc: 0.3963, ValLoss: 1.2706, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2798, Acc: 0.3963, ValLoss: 1.2700, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2801, Acc: 0.3963, ValLoss: 1.2703, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2796, Acc: 0.3963, ValLoss: 1.2701, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2793, Acc: 0.3963, ValLoss: 1.2694, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2791, Acc: 0.3963, ValLoss: 1.2692, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2792, Acc: 0.3963, ValLoss: 1.2692, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2791, Acc: 0.3963, ValLoss: 1.2689, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2790, Acc: 0.3963, ValLoss: 1.2695, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_do0_wd0p0001_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_do0_wd0p0001_nl2\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2790394340541953, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do2_wd0p0_nl1 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3749, Acc: 0.3383, ValLoss: 1.3595, ValAcc: 0.3902
+Epoch [2/20], Loss: 1.3488, Acc: 0.3787, ValLoss: 1.3302, ValAcc: 0.3902
+Epoch [3/20], Loss: 1.3234, Acc: 0.3739, ValLoss: 1.3057, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.3074, Acc: 0.3629, ValLoss: 1.2912, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.2988, Acc: 0.3717, ValLoss: 1.2839, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.2925, Acc: 0.3862, ValLoss: 1.2790, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.2878, Acc: 0.3928, ValLoss: 1.2768, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2858, Acc: 0.3937, ValLoss: 1.2752, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2858, Acc: 0.3941, ValLoss: 1.2737, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2863, Acc: 0.3959, ValLoss: 1.2727, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2821, Acc: 0.3963, ValLoss: 1.2725, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2850, Acc: 0.3959, ValLoss: 1.2711, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2829, Acc: 0.3959, ValLoss: 1.2709, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2837, Acc: 0.3967, ValLoss: 1.2708, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2804, Acc: 0.3963, ValLoss: 1.2703, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2813, Acc: 0.3963, ValLoss: 1.2705, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2815, Acc: 0.3963, ValLoss: 1.2701, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2820, Acc: 0.3959, ValLoss: 1.2698, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2813, Acc: 0.3963, ValLoss: 1.2698, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2798, Acc: 0.3963, ValLoss: 1.2693, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_do2_wd0p0_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_do2_wd0p0_nl1\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2797540843172526, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do2_wd0p0_nl2 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3791, Acc: 0.3238, ValLoss: 1.3634, ValAcc: 0.3761
+Epoch [2/20], Loss: 1.3421, Acc: 0.3651, ValLoss: 1.3101, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3051, Acc: 0.3660, ValLoss: 1.2852, ValAcc: 0.3849
+Epoch [4/20], Loss: 1.2939, Acc: 0.3836, ValLoss: 1.2776, ValAcc: 0.4007
+Epoch [5/20], Loss: 1.2883, Acc: 0.3932, ValLoss: 1.2753, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2860, Acc: 0.3941, ValLoss: 1.2746, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2851, Acc: 0.3959, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2834, Acc: 0.3963, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2831, Acc: 0.3959, ValLoss: 1.2730, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2811, Acc: 0.3963, ValLoss: 1.2723, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2812, Acc: 0.3959, ValLoss: 1.2715, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2812, Acc: 0.3963, ValLoss: 1.2713, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2814, Acc: 0.3959, ValLoss: 1.2724, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2810, Acc: 0.3963, ValLoss: 1.2711, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2805, Acc: 0.3963, ValLoss: 1.2717, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2818, Acc: 0.3963, ValLoss: 1.2705, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2828, Acc: 0.3963, ValLoss: 1.2710, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2817, Acc: 0.3963, ValLoss: 1.2706, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2810, Acc: 0.3963, ValLoss: 1.2702, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2792, Acc: 0.3950, ValLoss: 1.2704, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_do2_wd0p0_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_do2_wd0p0_nl2\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2792441958073781, 'final_train_accuracy': 0.39499121265377857}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do2_wd0p0001_nl1 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0001 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3737, Acc: 0.3431, ValLoss: 1.3582, ValAcc: 0.3884
+Epoch [2/20], Loss: 1.3484, Acc: 0.3888, ValLoss: 1.3296, ValAcc: 0.3902
+Epoch [3/20], Loss: 1.3244, Acc: 0.3844, ValLoss: 1.3050, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.3052, Acc: 0.3862, ValLoss: 1.2924, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.2968, Acc: 0.3831, ValLoss: 1.2828, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.2933, Acc: 0.3897, ValLoss: 1.2774, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.2883, Acc: 0.3915, ValLoss: 1.2748, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2866, Acc: 0.3959, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2847, Acc: 0.3963, ValLoss: 1.2738, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2828, Acc: 0.3963, ValLoss: 1.2721, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2826, Acc: 0.3963, ValLoss: 1.2722, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2815, Acc: 0.3963, ValLoss: 1.2709, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2840, Acc: 0.3963, ValLoss: 1.2704, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2815, Acc: 0.3937, ValLoss: 1.2716, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2822, Acc: 0.3963, ValLoss: 1.2703, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2815, Acc: 0.3963, ValLoss: 1.2698, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2801, Acc: 0.3963, ValLoss: 1.2704, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2805, Acc: 0.3963, ValLoss: 1.2711, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2819, Acc: 0.3963, ValLoss: 1.2697, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2779, Acc: 0.3963, ValLoss: 1.2694, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_do2_wd0p0001_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_do2_wd0p0001_nl1\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2778951122387852, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs16_lr0p0001_do2_wd0p0001_nl2 | hidden=256 bs=16 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0001 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3760, Acc: 0.3018, ValLoss: 1.3575, ValAcc: 0.3761
+Epoch [2/20], Loss: 1.3391, Acc: 0.3664, ValLoss: 1.3090, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3070, Acc: 0.3642, ValLoss: 1.2880, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.2966, Acc: 0.3761, ValLoss: 1.2807, ValAcc: 0.4007
+Epoch [5/20], Loss: 1.2917, Acc: 0.3910, ValLoss: 1.2778, ValAcc: 0.4007
+Epoch [6/20], Loss: 1.2895, Acc: 0.3928, ValLoss: 1.2758, ValAcc: 0.4007
+Epoch [7/20], Loss: 1.2841, Acc: 0.3915, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [8/20], Loss: 1.2837, Acc: 0.3950, ValLoss: 1.2738, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2848, Acc: 0.3959, ValLoss: 1.2739, ValAcc: 0.3884
+Epoch [10/20], Loss: 1.2833, Acc: 0.3950, ValLoss: 1.2725, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2813, Acc: 0.3959, ValLoss: 1.2721, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2809, Acc: 0.3963, ValLoss: 1.2713, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2826, Acc: 0.3963, ValLoss: 1.2715, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2800, Acc: 0.3963, ValLoss: 1.2707, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2803, Acc: 0.3963, ValLoss: 1.2702, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2819, Acc: 0.3959, ValLoss: 1.2713, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2811, Acc: 0.3963, ValLoss: 1.2702, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2813, Acc: 0.3959, ValLoss: 1.2699, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2811, Acc: 0.3959, ValLoss: 1.2695, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2801, Acc: 0.3967, ValLoss: 1.2697, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs16_lr0p0001_do2_wd0p0001_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs16_lr0p0001_do2_wd0p0001_nl2\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2800840610779023, 'final_train_accuracy': 0.3967486818980668}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do0_wd0p0_nl1 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3810, Acc: 0.3058, ValLoss: 1.3749, ValAcc: 0.3304
+Epoch [2/20], Loss: 1.3713, Acc: 0.3616, ValLoss: 1.3630, ValAcc: 0.4007
+Epoch [3/20], Loss: 1.3610, Acc: 0.3682, ValLoss: 1.3507, ValAcc: 0.4007
+Epoch [4/20], Loss: 1.3483, Acc: 0.3880, ValLoss: 1.3379, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3389, Acc: 0.3616, ValLoss: 1.3246, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.3285, Acc: 0.3519, ValLoss: 1.3130, ValAcc: 0.3761
+Epoch [7/20], Loss: 1.3205, Acc: 0.3537, ValLoss: 1.3045, ValAcc: 0.3761
+Epoch [8/20], Loss: 1.3071, Acc: 0.3721, ValLoss: 1.2962, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.2900, Acc: 0.3893, ValLoss: 1.2911, ValAcc: 0.3902
+Epoch [10/20], Loss: 1.3013, Acc: 0.3787, ValLoss: 1.2856, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2901, Acc: 0.3783, ValLoss: 1.2843, ValAcc: 0.3902
+Epoch [12/20], Loss: 1.2969, Acc: 0.3686, ValLoss: 1.2820, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2863, Acc: 0.3818, ValLoss: 1.2797, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2918, Acc: 0.3884, ValLoss: 1.2766, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2871, Acc: 0.3779, ValLoss: 1.2745, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2882, Acc: 0.3880, ValLoss: 1.2732, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2889, Acc: 0.3840, ValLoss: 1.2759, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2790, Acc: 0.3809, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2810, Acc: 0.3827, ValLoss: 1.2733, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2746, Acc: 0.4029, ValLoss: 1.2718, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_sampler_do0_wd0p0_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_sampler_do0_wd0p0_nl1\accuracy_curve.png
+Train accuracy: 0.3831
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.47      0.06      0.10       577
+           1       0.33      0.90      0.48       581
+           2       0.39      0.25      0.31       552
+           3       0.69      0.32      0.44       566
+
+    accuracy                           0.38      2276
+   macro avg       0.47      0.38      0.33      2276
+weighted avg       0.47      0.38      0.33      2276
+
+Train Confusion matrix:
+[[ 32 410 102  33]
+ [ 19 520  10  32]
+ [  8 390 138  16]
+ [  9 275 100 182]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.38312829525483305, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.274639830857463, 'final_train_accuracy': 0.4028998242530756}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do0_wd0p0_nl2 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3827, Acc: 0.2588, ValLoss: 1.3799, ValAcc: 0.2373
+Epoch [2/20], Loss: 1.3779, Acc: 0.2966, ValLoss: 1.3695, ValAcc: 0.3304
+Epoch [3/20], Loss: 1.3648, Acc: 0.3743, ValLoss: 1.3524, ValAcc: 0.4007
+Epoch [4/20], Loss: 1.3447, Acc: 0.3475, ValLoss: 1.3298, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3263, Acc: 0.3322, ValLoss: 1.3095, ValAcc: 0.3058
+Epoch [6/20], Loss: 1.2942, Acc: 0.3678, ValLoss: 1.2904, ValAcc: 0.3761
+Epoch [7/20], Loss: 1.2943, Acc: 0.3629, ValLoss: 1.2827, ValAcc: 0.3761
+Epoch [8/20], Loss: 1.2990, Acc: 0.3779, ValLoss: 1.2802, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2865, Acc: 0.3858, ValLoss: 1.2779, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2766, Acc: 0.3822, ValLoss: 1.2774, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2822, Acc: 0.3849, ValLoss: 1.2797, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2820, Acc: 0.3691, ValLoss: 1.2783, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2911, Acc: 0.3902, ValLoss: 1.2749, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2691, Acc: 0.3875, ValLoss: 1.2738, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2792, Acc: 0.3862, ValLoss: 1.2735, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2774, Acc: 0.3730, ValLoss: 1.2753, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2744, Acc: 0.3809, ValLoss: 1.2736, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2716, Acc: 0.3888, ValLoss: 1.2743, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2656, Acc: 0.3779, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2922, Acc: 0.3743, ValLoss: 1.2741, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_sampler_do0_wd0p0_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_sampler_do0_wd0p0_nl2\accuracy_curve.png
+Train accuracy: 0.3937
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.47      0.05      0.09       569
+           1       0.33      0.91      0.49       594
+           2       0.40      0.24      0.30       536
+           3       0.76      0.34      0.47       577
+
+    accuracy                           0.39      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.49      0.39      0.34      2276
+
+Train Confusion matrix:
+[[ 28 435  83  23]
+ [ 15 542  11  26]
+ [  6 387 131  12]
+ [ 10 269 103 195]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.3936731107205624, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2922107111171595, 'final_train_accuracy': 0.37434094903339193}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do0_wd0p0001_nl1 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0001 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3820, Acc: 0.3023, ValLoss: 1.3761, ValAcc: 0.3779
+Epoch [2/20], Loss: 1.3707, Acc: 0.3963, ValLoss: 1.3631, ValAcc: 0.4007
+Epoch [3/20], Loss: 1.3617, Acc: 0.3713, ValLoss: 1.3515, ValAcc: 0.4007
+Epoch [4/20], Loss: 1.3458, Acc: 0.4029, ValLoss: 1.3380, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3404, Acc: 0.3656, ValLoss: 1.3253, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.3302, Acc: 0.3757, ValLoss: 1.3144, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.3199, Acc: 0.3770, ValLoss: 1.3055, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.3113, Acc: 0.3770, ValLoss: 1.2978, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.2987, Acc: 0.3801, ValLoss: 1.2925, ValAcc: 0.3902
+Epoch [10/20], Loss: 1.2916, Acc: 0.3818, ValLoss: 1.2868, ValAcc: 0.3902
+Epoch [11/20], Loss: 1.3032, Acc: 0.3660, ValLoss: 1.2848, ValAcc: 0.3902
+Epoch [12/20], Loss: 1.2863, Acc: 0.3880, ValLoss: 1.2805, ValAcc: 0.3902
+Epoch [13/20], Loss: 1.2883, Acc: 0.3818, ValLoss: 1.2788, ValAcc: 0.3902
+Epoch [14/20], Loss: 1.2817, Acc: 0.3976, ValLoss: 1.2769, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2658, Acc: 0.4016, ValLoss: 1.2753, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2789, Acc: 0.3972, ValLoss: 1.2743, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2747, Acc: 0.3880, ValLoss: 1.2743, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2892, Acc: 0.3739, ValLoss: 1.2738, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2724, Acc: 0.4082, ValLoss: 1.2721, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2737, Acc: 0.4130, ValLoss: 1.2727, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_sampler_do0_wd0p0001_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_sampler_do0_wd0p0001_nl1\accuracy_curve.png
+Train accuracy: 0.3752
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.48      0.06      0.11       574
+           1       0.30      0.89      0.44       528
+           2       0.42      0.25      0.31       591
+           3       0.77      0.34      0.48       583
+
+    accuracy                           0.38      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.50      0.38      0.33      2276
+
+Train Confusion matrix:
+[[ 35 426  95  18]
+ [ 17 471  16  24]
+ [ 12 415 147  17]
+ [  9 278  95 201]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.37521968365553604, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2736559867439874, 'final_train_accuracy': 0.4130052724077329}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do0_wd0p0001_nl2 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.0 weight_decay=0.0001 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3828, Acc: 0.2742, ValLoss: 1.3789, ValAcc: 0.3304
+Epoch [2/20], Loss: 1.3744, Acc: 0.3497, ValLoss: 1.3653, ValAcc: 0.4007
+Epoch [3/20], Loss: 1.3607, Acc: 0.3743, ValLoss: 1.3450, ValAcc: 0.4007
+Epoch [4/20], Loss: 1.3374, Acc: 0.3598, ValLoss: 1.3173, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3110, Acc: 0.3752, ValLoss: 1.2975, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.2964, Acc: 0.3673, ValLoss: 1.2885, ValAcc: 0.3761
+Epoch [7/20], Loss: 1.2965, Acc: 0.3462, ValLoss: 1.2840, ValAcc: 0.3761
+Epoch [8/20], Loss: 1.2967, Acc: 0.3779, ValLoss: 1.2803, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2949, Acc: 0.3708, ValLoss: 1.2771, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2887, Acc: 0.3840, ValLoss: 1.2761, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2807, Acc: 0.3985, ValLoss: 1.2762, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2846, Acc: 0.3897, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2917, Acc: 0.3805, ValLoss: 1.2745, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2778, Acc: 0.3796, ValLoss: 1.2755, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2837, Acc: 0.3963, ValLoss: 1.2755, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2874, Acc: 0.3871, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2809, Acc: 0.3638, ValLoss: 1.2745, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2813, Acc: 0.3862, ValLoss: 1.2732, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2861, Acc: 0.3629, ValLoss: 1.2730, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2689, Acc: 0.3836, ValLoss: 1.2735, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_sampler_do0_wd0p0001_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_sampler_do0_wd0p0001_nl2\accuracy_curve.png
+Train accuracy: 0.3713
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.44      0.04      0.07       586
+           1       0.30      0.91      0.45       532
+           2       0.42      0.26      0.32       569
+           3       0.75      0.32      0.45       589
+
+    accuracy                           0.37      2276
+   macro avg       0.48      0.38      0.32      2276
+weighted avg       0.48      0.37      0.32      2276
+
+Train Confusion matrix:
+[[ 24 446  88  28]
+ [ 14 483  11  24]
+ [  8 400 149  12]
+ [  9 282 109 189]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.37126537785588754, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2689074539761132, 'final_train_accuracy': 0.3835676625659051}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do2_wd0p0_nl1 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3804, Acc: 0.3642, ValLoss: 1.3748, ValAcc: 0.3884
+Epoch [2/20], Loss: 1.3724, Acc: 0.3752, ValLoss: 1.3640, ValAcc: 0.3902
+Epoch [3/20], Loss: 1.3647, Acc: 0.3686, ValLoss: 1.3536, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.3512, Acc: 0.3594, ValLoss: 1.3408, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3375, Acc: 0.3875, ValLoss: 1.3281, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.3282, Acc: 0.3656, ValLoss: 1.3161, ValAcc: 0.3761
+Epoch [7/20], Loss: 1.3206, Acc: 0.3607, ValLoss: 1.3066, ValAcc: 0.3761
+Epoch [8/20], Loss: 1.3169, Acc: 0.3462, ValLoss: 1.3003, ValAcc: 0.3761
+Epoch [9/20], Loss: 1.3028, Acc: 0.3651, ValLoss: 1.2930, ValAcc: 0.3761
+Epoch [10/20], Loss: 1.2915, Acc: 0.3844, ValLoss: 1.2871, ValAcc: 0.3902
+Epoch [11/20], Loss: 1.3011, Acc: 0.3629, ValLoss: 1.2840, ValAcc: 0.3902
+Epoch [12/20], Loss: 1.3068, Acc: 0.3563, ValLoss: 1.2830, ValAcc: 0.3902
+Epoch [13/20], Loss: 1.2935, Acc: 0.3678, ValLoss: 1.2801, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2943, Acc: 0.3669, ValLoss: 1.2815, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2974, Acc: 0.3691, ValLoss: 1.2808, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2957, Acc: 0.3774, ValLoss: 1.2768, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2983, Acc: 0.3770, ValLoss: 1.2759, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2905, Acc: 0.3959, ValLoss: 1.2753, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2847, Acc: 0.3928, ValLoss: 1.2755, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2913, Acc: 0.3691, ValLoss: 1.2748, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_sampler_do2_wd0p0_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_sampler_do2_wd0p0_nl1\accuracy_curve.png
+Train accuracy: 0.3809
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.48      0.06      0.11       552
+           1       0.31      0.94      0.47       554
+           2       0.42      0.22      0.29       583
+           3       0.79      0.32      0.45       587
+
+    accuracy                           0.38      2276
+   macro avg       0.50      0.38      0.33      2276
+weighted avg       0.50      0.38      0.33      2276
+
+Train Confusion matrix:
+[[ 33 426  78  15]
+ [ 10 519   3  22]
+ [  9 433 129  12]
+ [ 17 287  97 186]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.38093145869947276, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2913451703864367, 'final_train_accuracy': 0.36906854130052724}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do2_wd0p0_nl2 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3843, Acc: 0.2680, ValLoss: 1.3807, ValAcc: 0.3076
+Epoch [2/20], Loss: 1.3773, Acc: 0.3414, ValLoss: 1.3703, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3634, Acc: 0.3629, ValLoss: 1.3514, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.3421, Acc: 0.3678, ValLoss: 1.3258, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3207, Acc: 0.3629, ValLoss: 1.3018, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.3037, Acc: 0.3620, ValLoss: 1.2917, ValAcc: 0.3761
+Epoch [7/20], Loss: 1.2847, Acc: 0.3748, ValLoss: 1.2828, ValAcc: 0.3761
+Epoch [8/20], Loss: 1.3012, Acc: 0.3550, ValLoss: 1.2813, ValAcc: 0.3866
+Epoch [9/20], Loss: 1.2923, Acc: 0.3866, ValLoss: 1.2789, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2756, Acc: 0.4104, ValLoss: 1.2757, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2757, Acc: 0.3897, ValLoss: 1.2764, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2827, Acc: 0.3779, ValLoss: 1.2751, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2873, Acc: 0.3888, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2836, Acc: 0.3730, ValLoss: 1.2737, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2858, Acc: 0.3779, ValLoss: 1.2747, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2734, Acc: 0.3941, ValLoss: 1.2739, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2933, Acc: 0.3765, ValLoss: 1.2769, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2945, Acc: 0.3805, ValLoss: 1.2749, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2811, Acc: 0.3897, ValLoss: 1.2741, ValAcc: 0.4007
+Early stopping triggered (no val improvement for 5 epochs)
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_sampler_do2_wd0p0_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_sampler_do2_wd0p0_nl2\accuracy_curve.png
+Train accuracy: 0.3730
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.37      0.04      0.08       584
+           1       0.31      0.93      0.47       550
+           2       0.40      0.24      0.30       561
+           3       0.75      0.31      0.44       581
+
+    accuracy                           0.37      2276
+   macro avg       0.46      0.38      0.32      2276
+weighted avg       0.46      0.37      0.32      2276
+
+Train Confusion matrix:
+[[ 26 443  87  28]
+ [ 18 509   8  15]
+ [ 13 396 136  16]
+ [ 13 281 109 178]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.37302284710017575, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2810721139706711, 'final_train_accuracy': 0.3897188049209139}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do2_wd0p0001_nl1 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0001 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3817, Acc: 0.2869, ValLoss: 1.3774, ValAcc: 0.3076
+Epoch [2/20], Loss: 1.3722, Acc: 0.3344, ValLoss: 1.3679, ValAcc: 0.3304
+Epoch [3/20], Loss: 1.3621, Acc: 0.3673, ValLoss: 1.3545, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.3510, Acc: 0.3708, ValLoss: 1.3417, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3457, Acc: 0.3730, ValLoss: 1.3316, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.3308, Acc: 0.3783, ValLoss: 1.3212, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.3232, Acc: 0.3533, ValLoss: 1.3131, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.3104, Acc: 0.3757, ValLoss: 1.3020, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.3098, Acc: 0.3669, ValLoss: 1.2965, ValAcc: 0.3902
+Epoch [10/20], Loss: 1.3008, Acc: 0.3607, ValLoss: 1.2919, ValAcc: 0.3761
+Epoch [11/20], Loss: 1.2976, Acc: 0.3691, ValLoss: 1.2889, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2886, Acc: 0.3946, ValLoss: 1.2831, ValAcc: 0.3902
+Epoch [13/20], Loss: 1.2915, Acc: 0.3590, ValLoss: 1.2826, ValAcc: 0.3902
+Epoch [14/20], Loss: 1.2912, Acc: 0.3515, ValLoss: 1.2835, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2827, Acc: 0.3805, ValLoss: 1.2801, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2936, Acc: 0.3770, ValLoss: 1.2774, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2894, Acc: 0.3765, ValLoss: 1.2756, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2851, Acc: 0.3858, ValLoss: 1.2753, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2707, Acc: 0.3989, ValLoss: 1.2738, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2963, Acc: 0.3809, ValLoss: 1.2766, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_sampler_do2_wd0p0001_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_sampler_do2_wd0p0001_nl1\accuracy_curve.png
+Train accuracy: 0.3897
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.06      0.11       585
+           1       0.32      0.90      0.47       565
+           2       0.44      0.30      0.36       542
+           3       0.72      0.31      0.43       584
+
+    accuracy                           0.39      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.50      0.39      0.34      2276
+
+Train Confusion matrix:
+[[ 37 418 103  27]
+ [ 16 507  10  32]
+ [ 10 356 164  12]
+ [ 11 297  97 179]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.3897188049209139, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2963336733397366, 'final_train_accuracy': 0.38093145869947276}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_sampler_do2_wd0p0001_nl2 | hidden=256 bs=64 lr=0.0001 sampler=True dropout=0.2 weight_decay=0.0001 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Using WeightedRandomSampler for training dataloader
+Epoch [1/20], Loss: 1.3842, Acc: 0.2575, ValLoss: 1.3811, ValAcc: 0.2373
+Epoch [2/20], Loss: 1.3763, Acc: 0.3058, ValLoss: 1.3682, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3589, Acc: 0.3651, ValLoss: 1.3464, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.3368, Acc: 0.3717, ValLoss: 1.3189, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3173, Acc: 0.3554, ValLoss: 1.2980, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.3071, Acc: 0.3546, ValLoss: 1.2874, ValAcc: 0.3761
+Epoch [7/20], Loss: 1.3009, Acc: 0.3678, ValLoss: 1.2812, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.2908, Acc: 0.3779, ValLoss: 1.2780, ValAcc: 0.3761
+Epoch [9/20], Loss: 1.2829, Acc: 0.3906, ValLoss: 1.2751, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2928, Acc: 0.3735, ValLoss: 1.2750, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2725, Acc: 0.3814, ValLoss: 1.2747, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2677, Acc: 0.3981, ValLoss: 1.2736, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2720, Acc: 0.3721, ValLoss: 1.2775, ValAcc: 0.3866
+Epoch [14/20], Loss: 1.2904, Acc: 0.3743, ValLoss: 1.2760, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2736, Acc: 0.3818, ValLoss: 1.2757, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2607, Acc: 0.4143, ValLoss: 1.2750, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2773, Acc: 0.3730, ValLoss: 1.2748, ValAcc: 0.4007
+Early stopping triggered (no val improvement for 5 epochs)
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_sampler_do2_wd0p0001_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_sampler_do2_wd0p0001_nl2\accuracy_curve.png
+Train accuracy: 0.3910
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.06      0.11       563
+           1       0.32      0.90      0.47       563
+           2       0.45      0.30      0.36       581
+           3       0.73      0.31      0.44       569
+
+    accuracy                           0.39      2276
+   macro avg       0.50      0.39      0.34      2276
+weighted avg       0.50      0.39      0.34      2276
+
+Train Confusion matrix:
+[[ 34 414  93  22]
+ [ 17 505  13  28]
+ [  7 387 172  15]
+ [ 10 272 108 179]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39103690685413006, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.277316370203122, 'final_train_accuracy': 0.37302284710017575}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do0_wd0p0_nl1 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3818, Acc: 0.2553, ValLoss: 1.3739, ValAcc: 0.3568
+Epoch [2/20], Loss: 1.3694, Acc: 0.3937, ValLoss: 1.3615, ValAcc: 0.4007
+Epoch [3/20], Loss: 1.3572, Acc: 0.3963, ValLoss: 1.3480, ValAcc: 0.4007
+Epoch [4/20], Loss: 1.3449, Acc: 0.3915, ValLoss: 1.3336, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3320, Acc: 0.3880, ValLoss: 1.3206, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.3209, Acc: 0.3880, ValLoss: 1.3083, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.3109, Acc: 0.3880, ValLoss: 1.2988, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.3035, Acc: 0.3880, ValLoss: 1.2912, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.2974, Acc: 0.3880, ValLoss: 1.2861, ValAcc: 0.3902
+Epoch [10/20], Loss: 1.2930, Acc: 0.3880, ValLoss: 1.2819, ValAcc: 0.3902
+Epoch [11/20], Loss: 1.2904, Acc: 0.3880, ValLoss: 1.2788, ValAcc: 0.3902
+Epoch [12/20], Loss: 1.2877, Acc: 0.3880, ValLoss: 1.2768, ValAcc: 0.3902
+Epoch [13/20], Loss: 1.2863, Acc: 0.3959, ValLoss: 1.2754, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2844, Acc: 0.3963, ValLoss: 1.2747, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2835, Acc: 0.3963, ValLoss: 1.2733, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2825, Acc: 0.3963, ValLoss: 1.2726, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2815, Acc: 0.3963, ValLoss: 1.2719, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2813, Acc: 0.3963, ValLoss: 1.2711, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2810, Acc: 0.3963, ValLoss: 1.2714, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2804, Acc: 0.3963, ValLoss: 1.2708, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_do0_wd0p0_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_do0_wd0p0_nl1\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2803534985845664, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do0_wd0p0_nl2 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3848, Acc: 0.2764, ValLoss: 1.3797, ValAcc: 0.2882
+Epoch [2/20], Loss: 1.3752, Acc: 0.3568, ValLoss: 1.3664, ValAcc: 0.3761
+Epoch [3/20], Loss: 1.3601, Acc: 0.3642, ValLoss: 1.3450, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.3396, Acc: 0.3651, ValLoss: 1.3215, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3196, Acc: 0.3651, ValLoss: 1.3015, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.3057, Acc: 0.3651, ValLoss: 1.2893, ValAcc: 0.3761
+Epoch [7/20], Loss: 1.2963, Acc: 0.3765, ValLoss: 1.2816, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.2911, Acc: 0.3748, ValLoss: 1.2780, ValAcc: 0.4007
+Epoch [9/20], Loss: 1.2883, Acc: 0.3924, ValLoss: 1.2758, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2848, Acc: 0.3963, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2841, Acc: 0.3963, ValLoss: 1.2734, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2834, Acc: 0.3963, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2820, Acc: 0.3963, ValLoss: 1.2725, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2813, Acc: 0.3963, ValLoss: 1.2719, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2809, Acc: 0.3963, ValLoss: 1.2717, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2808, Acc: 0.3963, ValLoss: 1.2713, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2804, Acc: 0.3963, ValLoss: 1.2711, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2795, Acc: 0.3963, ValLoss: 1.2710, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2798, Acc: 0.3963, ValLoss: 1.2705, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2796, Acc: 0.3963, ValLoss: 1.2710, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_do0_wd0p0_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_do0_wd0p0_nl2\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2796032699005047, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do0_wd0p0001_nl1 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0001 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3803, Acc: 0.2851, ValLoss: 1.3724, ValAcc: 0.4007
+Epoch [2/20], Loss: 1.3683, Acc: 0.3963, ValLoss: 1.3598, ValAcc: 0.4007
+Epoch [3/20], Loss: 1.3570, Acc: 0.3963, ValLoss: 1.3472, ValAcc: 0.4007
+Epoch [4/20], Loss: 1.3451, Acc: 0.3915, ValLoss: 1.3343, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3336, Acc: 0.3880, ValLoss: 1.3217, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.3229, Acc: 0.3880, ValLoss: 1.3110, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.3135, Acc: 0.3880, ValLoss: 1.3016, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.3062, Acc: 0.3880, ValLoss: 1.2938, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.3004, Acc: 0.3880, ValLoss: 1.2891, ValAcc: 0.3902
+Epoch [10/20], Loss: 1.2965, Acc: 0.3880, ValLoss: 1.2849, ValAcc: 0.3902
+Epoch [11/20], Loss: 1.2925, Acc: 0.3880, ValLoss: 1.2816, ValAcc: 0.3902
+Epoch [12/20], Loss: 1.2900, Acc: 0.3884, ValLoss: 1.2788, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2883, Acc: 0.3963, ValLoss: 1.2772, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2869, Acc: 0.3963, ValLoss: 1.2756, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2851, Acc: 0.3963, ValLoss: 1.2743, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2839, Acc: 0.3963, ValLoss: 1.2736, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2831, Acc: 0.3963, ValLoss: 1.2731, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2832, Acc: 0.3963, ValLoss: 1.2722, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2820, Acc: 0.3963, ValLoss: 1.2722, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2811, Acc: 0.3963, ValLoss: 1.2713, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_do0_wd0p0001_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_do0_wd0p0001_nl1\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2810806119798148, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do0_wd0p0001_nl2 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.0 weight_decay=0.0001 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3829, Acc: 0.3027, ValLoss: 1.3784, ValAcc: 0.3128
+Epoch [2/20], Loss: 1.3743, Acc: 0.3743, ValLoss: 1.3663, ValAcc: 0.3884
+Epoch [3/20], Loss: 1.3602, Acc: 0.3897, ValLoss: 1.3471, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.3405, Acc: 0.3880, ValLoss: 1.3241, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3188, Acc: 0.3787, ValLoss: 1.3014, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.3027, Acc: 0.3761, ValLoss: 1.2870, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.2933, Acc: 0.3880, ValLoss: 1.2799, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.2883, Acc: 0.3880, ValLoss: 1.2767, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.2862, Acc: 0.3915, ValLoss: 1.2752, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2847, Acc: 0.3963, ValLoss: 1.2749, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2823, Acc: 0.3963, ValLoss: 1.2738, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2826, Acc: 0.3946, ValLoss: 1.2734, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2818, Acc: 0.3963, ValLoss: 1.2732, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2813, Acc: 0.3963, ValLoss: 1.2739, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2807, Acc: 0.3963, ValLoss: 1.2727, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2803, Acc: 0.3963, ValLoss: 1.2726, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2806, Acc: 0.3963, ValLoss: 1.2720, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2803, Acc: 0.3963, ValLoss: 1.2717, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2799, Acc: 0.3963, ValLoss: 1.2716, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2796, Acc: 0.3963, ValLoss: 1.2714, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_do0_wd0p0001_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_do0_wd0p0001_nl2\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2796050963795667, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do2_wd0p0_nl1 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3810, Acc: 0.3344, ValLoss: 1.3750, ValAcc: 0.3902
+Epoch [2/20], Loss: 1.3708, Acc: 0.3849, ValLoss: 1.3647, ValAcc: 0.3902
+Epoch [3/20], Loss: 1.3610, Acc: 0.3884, ValLoss: 1.3532, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.3503, Acc: 0.3880, ValLoss: 1.3413, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3390, Acc: 0.3875, ValLoss: 1.3297, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.3291, Acc: 0.3893, ValLoss: 1.3181, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.3192, Acc: 0.3862, ValLoss: 1.3085, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.3114, Acc: 0.3836, ValLoss: 1.3002, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.3052, Acc: 0.3858, ValLoss: 1.2936, ValAcc: 0.3902
+Epoch [10/20], Loss: 1.2999, Acc: 0.3853, ValLoss: 1.2881, ValAcc: 0.3902
+Epoch [11/20], Loss: 1.2952, Acc: 0.3884, ValLoss: 1.2843, ValAcc: 0.3902
+Epoch [12/20], Loss: 1.2925, Acc: 0.3884, ValLoss: 1.2814, ValAcc: 0.3902
+Epoch [13/20], Loss: 1.2910, Acc: 0.3893, ValLoss: 1.2793, ValAcc: 0.3902
+Epoch [14/20], Loss: 1.2878, Acc: 0.3884, ValLoss: 1.2776, ValAcc: 0.3902
+Epoch [15/20], Loss: 1.2878, Acc: 0.3932, ValLoss: 1.2762, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2859, Acc: 0.3954, ValLoss: 1.2747, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2832, Acc: 0.3959, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2844, Acc: 0.3959, ValLoss: 1.2734, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2841, Acc: 0.3954, ValLoss: 1.2728, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2827, Acc: 0.3963, ValLoss: 1.2722, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_do2_wd0p0_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_do2_wd0p0_nl1\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2826657649293307, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do2_wd0p0_nl2 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3838, Acc: 0.2588, ValLoss: 1.3802, ValAcc: 0.2619
+Epoch [2/20], Loss: 1.3767, Acc: 0.3067, ValLoss: 1.3706, ValAcc: 0.3849
+Epoch [3/20], Loss: 1.3653, Acc: 0.3875, ValLoss: 1.3545, ValAcc: 0.3849
+Epoch [4/20], Loss: 1.3475, Acc: 0.3866, ValLoss: 1.3324, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3264, Acc: 0.3844, ValLoss: 1.3082, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.3079, Acc: 0.3735, ValLoss: 1.2910, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.2961, Acc: 0.3827, ValLoss: 1.2825, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.2908, Acc: 0.3858, ValLoss: 1.2787, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.2880, Acc: 0.3897, ValLoss: 1.2759, ValAcc: 0.3902
+Epoch [10/20], Loss: 1.2867, Acc: 0.3910, ValLoss: 1.2752, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2824, Acc: 0.3937, ValLoss: 1.2744, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2835, Acc: 0.3932, ValLoss: 1.2733, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2830, Acc: 0.3963, ValLoss: 1.2735, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2829, Acc: 0.3963, ValLoss: 1.2729, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2812, Acc: 0.3959, ValLoss: 1.2726, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2806, Acc: 0.3928, ValLoss: 1.2720, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2812, Acc: 0.3954, ValLoss: 1.2720, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2797, Acc: 0.3946, ValLoss: 1.2721, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2811, Acc: 0.3954, ValLoss: 1.2717, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2801, Acc: 0.3963, ValLoss: 1.2719, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_do2_wd0p0_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_do2_wd0p0_nl2\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2801235977082344, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do2_wd0p0001_nl1 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0001 num_layers=1 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3807, Acc: 0.2900, ValLoss: 1.3740, ValAcc: 0.3849
+Epoch [2/20], Loss: 1.3700, Acc: 0.3880, ValLoss: 1.3624, ValAcc: 0.4007
+Epoch [3/20], Loss: 1.3588, Acc: 0.3897, ValLoss: 1.3496, ValAcc: 0.3902
+Epoch [4/20], Loss: 1.3468, Acc: 0.3888, ValLoss: 1.3371, ValAcc: 0.3902
+Epoch [5/20], Loss: 1.3365, Acc: 0.3880, ValLoss: 1.3250, ValAcc: 0.3902
+Epoch [6/20], Loss: 1.3257, Acc: 0.3871, ValLoss: 1.3138, ValAcc: 0.3902
+Epoch [7/20], Loss: 1.3171, Acc: 0.3875, ValLoss: 1.3049, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.3096, Acc: 0.3858, ValLoss: 1.2978, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.3031, Acc: 0.3862, ValLoss: 1.2915, ValAcc: 0.3902
+Epoch [10/20], Loss: 1.2975, Acc: 0.3893, ValLoss: 1.2869, ValAcc: 0.3902
+Epoch [11/20], Loss: 1.2951, Acc: 0.3880, ValLoss: 1.2832, ValAcc: 0.3902
+Epoch [12/20], Loss: 1.2913, Acc: 0.3888, ValLoss: 1.2806, ValAcc: 0.3902
+Epoch [13/20], Loss: 1.2905, Acc: 0.3897, ValLoss: 1.2784, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2883, Acc: 0.3950, ValLoss: 1.2767, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2859, Acc: 0.3932, ValLoss: 1.2757, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2857, Acc: 0.3963, ValLoss: 1.2746, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2837, Acc: 0.3967, ValLoss: 1.2741, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2844, Acc: 0.3963, ValLoss: 1.2733, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2834, Acc: 0.3963, ValLoss: 1.2725, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2817, Acc: 0.3963, ValLoss: 1.2720, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_do2_wd0p0001_nl1\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_do2_wd0p0001_nl1\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2816866250783991, 'final_train_accuracy': 0.39630931458699475}
+
+---
+
+=== RUN: focused_h256_bs64_lr0p0001_do2_wd0p0001_nl2 | hidden=256 bs=64 lr=0.0001 sampler=False dropout=0.2 weight_decay=0.0001 num_layers=2 ===
+Stratify key counts (trait_numTurns):
+  0_1: 134
+  0_2: 134
+  0_3: 134
+  0_4: 134
+  0_5: 134
+  1_1: 150
+  1_2: 150
+  1_3: 150
+  1_4: 150
+  1_5: 150
+  2_1: 148
+  2_2: 148
+  2_3: 148
+  2_4: 148
+  2_5: 148
+  3_1: 137
+  3_2: 137
+  3_3: 137
+  3_4: 137
+  3_5: 137
+Encoded stratify label distribution:
+  label 0: 134 rows (strat key=0_1)
+  label 1: 134 rows (strat key=0_2)
+  label 2: 134 rows (strat key=0_3)
+  label 3: 134 rows (strat key=0_4)
+  label 4: 134 rows (strat key=0_5)
+  label 5: 150 rows (strat key=1_1)
+  label 6: 150 rows (strat key=1_2)
+  label 7: 150 rows (strat key=1_3)
+  label 8: 150 rows (strat key=1_4)
+  label 9: 150 rows (strat key=1_5)
+  label 10: 148 rows (strat key=2_1)
+  label 11: 148 rows (strat key=2_2)
+  label 12: 148 rows (strat key=2_3)
+  label 13: 148 rows (strat key=2_4)
+  label 14: 148 rows (strat key=2_5)
+  label 15: 137 rows (strat key=3_1)
+  label 16: 137 rows (strat key=3_2)
+  label 17: 137 rows (strat key=3_3)
+  label 18: 137 rows (strat key=3_4)
+  label 19: 137 rows (strat key=3_5)
+Epoch [1/20], Loss: 1.3846, Acc: 0.2636, ValLoss: 1.3808, ValAcc: 0.2636
+Epoch [2/20], Loss: 1.3772, Acc: 0.3150, ValLoss: 1.3704, ValAcc: 0.3884
+Epoch [3/20], Loss: 1.3649, Acc: 0.3840, ValLoss: 1.3536, ValAcc: 0.3761
+Epoch [4/20], Loss: 1.3476, Acc: 0.3713, ValLoss: 1.3314, ValAcc: 0.3761
+Epoch [5/20], Loss: 1.3280, Acc: 0.3656, ValLoss: 1.3092, ValAcc: 0.3761
+Epoch [6/20], Loss: 1.3108, Acc: 0.3660, ValLoss: 1.2930, ValAcc: 0.3761
+Epoch [7/20], Loss: 1.2998, Acc: 0.3721, ValLoss: 1.2846, ValAcc: 0.3902
+Epoch [8/20], Loss: 1.2939, Acc: 0.3840, ValLoss: 1.2805, ValAcc: 0.3902
+Epoch [9/20], Loss: 1.2893, Acc: 0.3827, ValLoss: 1.2771, ValAcc: 0.4007
+Epoch [10/20], Loss: 1.2857, Acc: 0.3950, ValLoss: 1.2761, ValAcc: 0.4007
+Epoch [11/20], Loss: 1.2837, Acc: 0.3963, ValLoss: 1.2752, ValAcc: 0.4007
+Epoch [12/20], Loss: 1.2831, Acc: 0.3959, ValLoss: 1.2743, ValAcc: 0.4007
+Epoch [13/20], Loss: 1.2819, Acc: 0.3967, ValLoss: 1.2737, ValAcc: 0.4007
+Epoch [14/20], Loss: 1.2817, Acc: 0.3963, ValLoss: 1.2735, ValAcc: 0.4007
+Epoch [15/20], Loss: 1.2817, Acc: 0.3959, ValLoss: 1.2727, ValAcc: 0.4007
+Epoch [16/20], Loss: 1.2824, Acc: 0.3963, ValLoss: 1.2730, ValAcc: 0.4007
+Epoch [17/20], Loss: 1.2811, Acc: 0.3954, ValLoss: 1.2726, ValAcc: 0.4007
+Epoch [18/20], Loss: 1.2814, Acc: 0.3959, ValLoss: 1.2726, ValAcc: 0.4007
+Epoch [19/20], Loss: 1.2822, Acc: 0.3963, ValLoss: 1.2721, ValAcc: 0.4007
+Epoch [20/20], Loss: 1.2816, Acc: 0.3963, ValLoss: 1.2720, ValAcc: 0.4007
+Saved loss curve: runs\focused_h256_bs64_lr0p0001_do2_wd0p0001_nl2\loss_curve.png
+Saved accuracy curve: runs\focused_h256_bs64_lr0p0001_do2_wd0p0001_nl2\accuracy_curve.png
+Train accuracy: 0.3963
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+Per-conversation-length Train accuracy:
+  num_turns=1: acc=0.3978
+  num_turns=2: acc=0.3890
+  num_turns=3: acc=0.3956
+  num_turns=4: acc=0.4035
+  num_turns=5: acc=0.3956
+
+Per-conversation-length Test accuracy:
+  num_turns=1: acc=0.3947
+  num_turns=2: acc=0.4298
+  num_turns=3: acc=0.4035
+  num_turns=4: acc=0.3717
+  num_turns=5: acc=0.4035
+Metrics: {'train_accuracy': 0.39630931458699475, 'accuracy': 0.4007029876977153, 'per_length_train': {'1': 0.3978021978021978, '2': 0.389010989010989, '3': 0.3956043956043956, '4': 0.40350877192982454, '5': 0.3956043956043956}, 'per_length_test': {'1': 0.39473684210526316, '2': 0.4298245614035088, '3': 0.40350877192982454, '4': 0.37168141592920356, '5': 0.40350877192982454}, 'final_train_loss': 1.2816399526512268, 'final_train_accuracy': 0.39630931458699475}
+
+---
+

@@ -1,0 +1,4 @@
+--- Compare embeddings run ---
+observer_h256_bs16_lr0p0001_sampler_lowleak: accuracy=0.3215962441314554, train_accuracy=0.29518779342723006, final_train_loss=1.3529274491636967
+observer_h256_bs16_lr0p0001_sampler_notune: accuracy=0.4007029876977153, train_accuracy=0.4033391915641476, final_train_loss=1.2855157531627661
+observer_h256_bs16_lr0p0001_sampler_contrastive: accuracy=0.4007029876977153, train_accuracy=0.37697715289982425, final_train_loss=1.284634992401713

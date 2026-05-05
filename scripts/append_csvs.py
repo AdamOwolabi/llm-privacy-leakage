@@ -17,9 +17,7 @@ import datetime
 # Edit if filenames differ
 TARGET = Path('synthetic_conversations_full.csv')
 SOURCES = [
-    Path('synthetic_conversations (1).csv'),
-    Path('synthetic_conversations(18).csv'),
-    Path('synthetic_conversations(20).csv'),
+    Path('synthetic_conversations (4).csv'),
 ]
 
 if not TARGET.exists():
