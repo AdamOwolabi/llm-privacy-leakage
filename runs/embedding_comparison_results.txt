@@ -586,3 +586,441 @@ Test Confusion matrix:
  [  3 137   5   5]
  [  1 112  33   3]
  [  4  58  25  48]]
+
+=== Embedding comparison detailed results ===
+
+--- observer_h256_bs16_lr0p0001_sampler_ll_mini ---
+Train accuracy: 0.29284037558685444
+              precision    recall  f1-score   support
+
+           0       0.50      0.22      0.30       410
+           1       0.00      0.00      0.00       505
+           2       0.28      0.22      0.25       444
+           3       0.22      0.75      0.34       345
+
+    accuracy                           0.26      1704
+   macro avg       0.25      0.30      0.22      1704
+weighted avg       0.24      0.26      0.21      1704
+
+Train Confusion matrix:
+[[ 90   0  73 247]
+ [ 28   0 117 360]
+ [ 30   0  97 317]
+ [ 33   0  54 258]]
+Test accuracy: 0.25821596244131456
+              precision    recall  f1-score   support
+
+           0       0.51      0.24      0.32       105
+           1       0.00      0.00      0.00       125
+           2       0.23      0.16      0.19       111
+           3       0.22      0.79      0.35        85
+
+    accuracy                           0.26       426
+   macro avg       0.24      0.30      0.22       426
+weighted avg       0.23      0.26      0.20       426
+
+Test Confusion matrix:
+[[25  0 22 58]
+ [12  0 28 85]
+ [ 5  0 18 88]
+ [ 7  0 11 67]]
+
+--- observer_h256_bs16_lr0p0001_sampler_ll_bigger ---
+Train accuracy: 0.3057511737089202
+              precision    recall  f1-score   support
+
+           0       0.50      0.22      0.30       410
+           1       0.34      0.23      0.28       505
+           2       0.27      0.71      0.39       444
+           3       1.00      0.05      0.09       345
+
+    accuracy                           0.32      1704
+   macro avg       0.53      0.30      0.27      1704
+weighted avg       0.49      0.32      0.28      1704
+
+Train Confusion matrix:
+[[ 90  73 247   0]
+ [ 28 117 360   0]
+ [ 30  97 317   0]
+ [ 33  54 241  17]]
+Test accuracy: 0.3380281690140845
+              precision    recall  f1-score   support
+
+           0       0.51      0.24      0.32       105
+           1       0.35      0.22      0.27       125
+           2       0.30      0.79      0.43       111
+           3       1.00      0.04      0.07        85
+
+    accuracy                           0.34       426
+   macro avg       0.54      0.32      0.28       426
+weighted avg       0.51      0.34      0.29       426
+
+Test Confusion matrix:
+[[25 22 58  0]
+ [12 28 85  0]
+ [ 5 18 88  0]
+ [ 7 11 64  3]]
+
+--- observer_h256_bs16_lr0p0001_sampler_hl ---
+Train accuracy: 0.38224956063268895
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007029876977153
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+--- observer_h256_bs16_lr0p0001_sampler_hl_cf ---
+Train accuracy: 0.38576449912126537
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007029876977153
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+=== Embedding comparison detailed results ===
+
+--- observer_h256_bs16_lr0p0001_sampler_ll_mini ---
+Train accuracy: 0.3028169014084507
+              precision    recall  f1-score   support
+
+           0       0.50      0.22      0.30       410
+           1       0.32      0.94      0.47       505
+           2       0.00      0.00      0.00       444
+           3       1.00      0.05      0.09       345
+
+    accuracy                           0.34      1704
+   macro avg       0.45      0.30      0.22      1704
+weighted avg       0.42      0.34      0.23      1704
+
+Train Confusion matrix:
+[[ 90 320   0   0]
+ [ 28 477   0   0]
+ [ 30 414   0   0]
+ [ 33 295   0  17]]
+Test accuracy: 0.33098591549295775
+              precision    recall  f1-score   support
+
+           0       0.51      0.24      0.32       105
+           1       0.30      0.90      0.45       125
+           2       0.00      0.00      0.00       111
+           3       1.00      0.04      0.07        85
+
+    accuracy                           0.33       426
+   macro avg       0.45      0.29      0.21       426
+weighted avg       0.41      0.33      0.23       426
+
+Test Confusion matrix:
+[[ 25  80   0   0]
+ [ 12 113   0   0]
+ [  5 106   0   0]
+ [  7  75   0   3]]
+
+--- observer_h256_bs16_lr0p0001_sampler_ll_bigger ---
+Train accuracy: 0.30633802816901406
+              precision    recall  f1-score   support
+
+           0       0.50      0.22      0.30       410
+           1       0.34      0.23      0.28       505
+           2       0.27      0.71      0.39       444
+           3       1.00      0.05      0.09       345
+
+    accuracy                           0.32      1704
+   macro avg       0.53      0.30      0.27      1704
+weighted avg       0.49      0.32      0.28      1704
+
+Train Confusion matrix:
+[[ 90  73 247   0]
+ [ 28 117 360   0]
+ [ 30  97 317   0]
+ [ 33  54 241  17]]
+Test accuracy: 0.3380281690140845
+              precision    recall  f1-score   support
+
+           0       0.51      0.24      0.32       105
+           1       0.35      0.22      0.27       125
+           2       0.30      0.79      0.43       111
+           3       1.00      0.04      0.07        85
+
+    accuracy                           0.34       426
+   macro avg       0.54      0.32      0.28       426
+weighted avg       0.51      0.34      0.29       426
+
+Test Confusion matrix:
+[[25 22 58  0]
+ [12 28 85  0]
+ [ 5 18 88  0]
+ [ 7 11 64  3]]
+
+--- observer_h256_bs16_lr0p0001_sampler_hl ---
+Train accuracy: 0.37653778558875217
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007029876977153
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+--- observer_h256_bs16_lr0p0001_sampler_hl_cf ---
+Train accuracy: 0.38005272407732865
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007029876977153
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+=== Embedding comparison detailed results ===
+
+--- observer_h256_bs16_lr0p0001_sampler_ll_mini ---
+Train accuracy: 0.31103286384976525
+              precision    recall  f1-score   support
+
+           0       0.50      0.22      0.30       410
+           1       0.32      0.94      0.47       505
+           2       0.00      0.00      0.00       444
+           3       1.00      0.05      0.09       345
+
+    accuracy                           0.34      1704
+   macro avg       0.45      0.30      0.22      1704
+weighted avg       0.42      0.34      0.23      1704
+
+Train Confusion matrix:
+[[ 90 320   0   0]
+ [ 28 477   0   0]
+ [ 30 414   0   0]
+ [ 33 295   0  17]]
+Test accuracy: 0.33098591549295775
+              precision    recall  f1-score   support
+
+           0       0.51      0.24      0.32       105
+           1       0.30      0.90      0.45       125
+           2       0.00      0.00      0.00       111
+           3       1.00      0.04      0.07        85
+
+    accuracy                           0.33       426
+   macro avg       0.45      0.29      0.21       426
+weighted avg       0.41      0.33      0.23       426
+
+Test Confusion matrix:
+[[ 25  80   0   0]
+ [ 12 113   0   0]
+ [  5 106   0   0]
+ [  7  75   0   3]]
+
+--- observer_h256_bs16_lr0p0001_sampler_ll_bigger ---
+Train accuracy: 0.2875586854460094
+              precision    recall  f1-score   support
+
+           0       0.50      0.22      0.30       410
+           1       0.34      0.23      0.28       505
+           2       0.27      0.71      0.39       444
+           3       1.00      0.05      0.09       345
+
+    accuracy                           0.32      1704
+   macro avg       0.53      0.30      0.27      1704
+weighted avg       0.49      0.32      0.28      1704
+
+Train Confusion matrix:
+[[ 90  73 247   0]
+ [ 28 117 360   0]
+ [ 30  97 317   0]
+ [ 33  54 241  17]]
+Test accuracy: 0.3380281690140845
+              precision    recall  f1-score   support
+
+           0       0.51      0.24      0.32       105
+           1       0.35      0.22      0.27       125
+           2       0.30      0.79      0.43       111
+           3       1.00      0.04      0.07        85
+
+    accuracy                           0.34       426
+   macro avg       0.54      0.32      0.28       426
+weighted avg       0.51      0.34      0.29       426
+
+Test Confusion matrix:
+[[25 22 58  0]
+ [12 28 85  0]
+ [ 5 18 88  0]
+ [ 7 11 64  3]]
+
+--- observer_h256_bs16_lr0p0001_sampler_hl ---
+Train accuracy: 0.3976274165202109
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007029876977153
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]
+
+--- observer_h256_bs16_lr0p0001_sampler_hl_cf ---
+Train accuracy: 0.37346221441124783
+              precision    recall  f1-score   support
+
+           0       0.45      0.06      0.10       535
+           1       0.34      0.91      0.49       600
+           2       0.43      0.26      0.32       591
+           3       0.73      0.32      0.45       550
+
+    accuracy                           0.40      2276
+   macro avg       0.49      0.39      0.34      2276
+weighted avg       0.48      0.40      0.34      2276
+
+Train Confusion matrix:
+[[ 30 398  85  22]
+ [ 17 543  15  25]
+ [  9 413 152  17]
+ [ 11 262 100 177]]
+Test accuracy: 0.4007029876977153
+              precision    recall  f1-score   support
+
+           0       0.56      0.07      0.13       135
+           1       0.34      0.91      0.49       150
+           2       0.40      0.22      0.28       149
+           3       0.75      0.36      0.48       135
+
+    accuracy                           0.40       569
+   macro avg       0.51      0.39      0.35       569
+weighted avg       0.50      0.40      0.35       569
+
+Test Confusion matrix:
+[[ 10  97  20   8]
+ [  3 137   5   5]
+ [  1 112  33   3]
+ [  4  58  25  48]]

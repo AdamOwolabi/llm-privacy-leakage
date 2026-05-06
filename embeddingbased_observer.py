@@ -686,9 +686,9 @@ if __name__ == "__main__":
     agg_acc = {}
     agg_perlen = {}
     for key in emb_files.keys():
-        run_name = (
-            f'observer_h{hidden}_bs{bs}_lr{str(lr).replace(".", "p")}_sampler_{key}'
-        )
+        # Use same lr->string formatting as when the run was written above
+        lr_str_for_name = str(lr).replace('.', 'p').replace('-', 'm')
+        run_name = f'observer_h{hidden}_bs{bs}_lr{lr_str_for_name}_sampler_{key}'
         # try read per_length_metrics.json from run dir
         run_dir = os.path.join("runs", run_name)
         perlen = {}
@@ -704,6 +704,7 @@ if __name__ == "__main__":
         # find accuracy from summary file fallback
         acc = None
         try:
+            # Read the whole summary and take the last matching occurrence for this run
             with open(out_summary, "r", encoding="utf-8") as sf:
                 for line in sf:
                     if line.startswith(run_name + ":"):
@@ -713,8 +714,8 @@ if __name__ == "__main__":
                             try:
                                 acc = float(acc_part)
                             except Exception:
-                                acc = None
-                        break
+                                # keep previous acc if parse fails
+                                pass
         except Exception:
             acc = None
         agg_acc[key] = acc if acc is not None else 0.0
@@ -724,7 +725,13 @@ if __name__ == "__main__":
         labels = list(agg_acc.keys())
         accs = [agg_acc[k] for k in labels]
         plt.figure(figsize=(6, 4))
-        bars = plt.bar(labels, accs, color=["#4C72B0", "#55A868", "#C44E52"])
+        # color palette sized to number of bars to avoid color cycling surprises
+        try:
+            cmap = plt.cm.get_cmap('tab10')
+            colors = [cmap(i) for i in range(len(labels))]
+        except Exception:
+            colors = None
+        bars = plt.bar(labels, accs, color=colors)
         plt.ylim(0, 1)
         plt.ylabel("Test accuracy")
         plt.title("Embedding comparison: Test accuracy")
