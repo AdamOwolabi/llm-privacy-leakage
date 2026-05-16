@@ -2,9 +2,9 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix, f1_score
 
-def tf_idf_accuracy(dataset: str, omit_ctrl = False, omit_middle = False):
+def tf_idf_accuracy(dataset: str, turn_index: list, omit_ctrl = False, omit_middle = False):
     '''
     Logistic Regression model using TF-IDF for extracting hidden income traits from a dataset
     Args:
@@ -21,8 +21,15 @@ def tf_idf_accuracy(dataset: str, omit_ctrl = False, omit_middle = False):
     if omit_middle == True:
         data = data[data['trait_selected'] != 2]
 
+    turns = ['llm_output_0', 'llm_output_1', 'llm_output_2', 'llm_output_3', 'llm_output_4']
+    turnsActual = []
+    #print(turnsActual)
+    for i in turn_index:
+        # print(i)
+        # print(turn_index[i])
+        turnsActual.append(turns[i])
 
-    outputs = data[['llm_output_0', 'llm_output_1', 'llm_output_2', 'llm_output_3', 'llm_output_4']]
+    outputs = data[turnsActual]
     outputList = outputs.astype(str).agg(' '.join, axis=1).tolist()
     labels = data[['trait_selected']].astype(str).agg(' '.join, axis=1).tolist()
     data_train, data_test, label_train, label_test = train_test_split(outputList, labels, test_size=0.25, random_state=42)
@@ -34,4 +41,5 @@ def tf_idf_accuracy(dataset: str, omit_ctrl = False, omit_middle = False):
     label_prediction = model.predict(data_test_tfidf)
     accuracy = accuracy_score(label_test, label_prediction)
     conf_matrix = confusion_matrix(label_test, label_prediction)
+    #print(f1_score(label_test, label_prediction, average='macro'))
     return accuracy, conf_matrix
